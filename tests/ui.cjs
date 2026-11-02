@@ -1,0 +1,44 @@
+const {chromium}=require('playwright');
+const path=require('path'),assert=require('assert');
+(async()=>{
+ require('fs').mkdirSync('test-results',{recursive:true});
+ const browser=await chromium.launch({executablePath:process.env.CHROME_PATH || (process.platform==='darwin'?'/Applications/Google Chrome.app/Contents/MacOS/Google Chrome':undefined),headless:true});
+ const context=await browser.newContext({viewport:{width:1440,height:1100}});
+ const page=await context.newPage();const errors=[];page.on('pageerror',e=>errors.push(e.message));
+ await context.setOffline(true);
+ await page.goto('file://'+path.resolve('assets/index.html'));
+ assert.equal(await page.locator('.question').count(),34);
+ await page.screenshot({path:'test-results/desktop-preview.png',fullPage:false});
+ await page.selectOption('#year','2025');assert.equal(await page.locator('.question').count(),8);
+ await page.selectOption('#exam','CT1');assert.equal(await page.locator('.question').count(),4);
+ assert((await page.locator('#questions').innerText()).includes('retest'));
+ await page.selectOption('#year','unknown');assert.equal(await page.locator('.question').count(),4);
+ await page.selectOption('#year','all');await page.selectOption('#exam','all');
+ await page.fill('#search','LRU');assert.equal(await page.locator('.question').count(),1);
+ await page.locator('[data-open="q18"]').first().click();assert(await page.locator('#reader').isVisible());
+ assert((await page.locator('#reader-body').innerText()).includes('11 faults'));
+ await page.locator('#reader-save').click();await page.locator('#reader-done').click();
+ await page.locator('#close-reader').click();await page.reload();
+ assert.equal(await page.locator('#saved-count').innerText(),'1');
+ await page.locator('nav [data-view="saved"]').click();assert.equal(await page.locator('.question').count(),1);
+ await page.locator('[data-open="q18"]').first().click();assert((await page.locator('#reader-done').innerText()).includes('Revised'));
+ await page.locator('#reader .source-details summary').click();await page.locator('#reader [data-paper="ct2-24"]').click();await page.locator('#source img').waitFor();
+ await page.waitForFunction(()=>[...document.querySelectorAll('#source img')].every(i=>i.complete&&i.naturalWidth>0));
+ await page.locator('#close-source').click();await page.locator('#close-reader').click();
+ await page.locator('nav [data-view="study"]').click();await page.fill('#search','zzzznoresult');assert.equal(await page.locator('.question').count(),0);
+ await page.locator('[data-reset]').click();assert.equal(await page.locator('.question').count(),34);
+ await page.setViewportSize({width:390,height:844});await page.evaluate(()=>scrollTo(0,0));await page.screenshot({path:'test-results/mobile-preview.png',fullPage:false});
+ assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
+ await page.locator('[data-open="q12"]').first().click();await page.screenshot({path:'test-results/answer-preview.png',fullPage:false});
+ assert((await page.locator('#reader-body').innerText()).includes('331 cylinders'));
+ await page.evaluate(()=>window.examDeskBack());assert(!(await page.locator('#reader').isVisible()));
+ await page.locator('nav [data-view="papers"]').click();assert.equal(await page.locator('.paper-card').count(),6);
+ for(const id of ['ct1-u','ct1-r25','ct2-25','ct1-24','ct2-24','end-24']){
+   await page.locator(`#content [data-paper="${id}"]`).click();
+   await page.waitForFunction(()=>[...document.querySelectorAll('#source img')].every(i=>i.complete&&i.naturalWidth>0));
+   await page.locator('#close-source').click();
+ }
+ await page.setViewportSize({width:320,height:700});assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
+ await page.locator('nav [data-view="about"]').click();assert((await page.locator('.about').innerText()).includes('18 December'));
+ assert.deepEqual(errors,[]);console.log('PASS: 34 questions, filters, uncertainty, bookmarks and revision persistence, answers, all 7 scans, empty state, offline file reload, back handling, 390px/320px layouts; no JavaScript errors.');await browser.close();
+})().catch(e=>{console.error(e);process.exit(1)});

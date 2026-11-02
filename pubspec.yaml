@@ -1,0 +1,23 @@
+name: exam_desk
+description: Offline Operating Systems, Data Structure Mathematics III and Chemistry exam preparation for GEC Aurangabad CSE.
+publish_to: none
+version: 1.5.0+6
+environment:
+  sdk: '>=3.10.0 <4.0.0'
+  flutter: '>=3.38.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  webview_flutter: 4.14.1
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/papers/
+    - assets/papers/ds/
+    - assets/papers/m3/
+    - assets/papers/chem/
+    - assets/notes/chem/
+    - assets/fonts/
+    - assets/papers/pps/
+    - assets/papers/iks/

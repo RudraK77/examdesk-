@@ -1,0 +1,20 @@
+@font-face{font-family:Arcade;src:url('fonts/PressStart2P-Regular.ttf') format('truetype');font-display:swap}
+@font-face{font-family:Plex;src:url('fonts/IBMPlexMono-Regular.ttf') format('truetype');font-weight:400;font-display:swap}
+@font-face{font-family:Plex;src:url('fonts/IBMPlexMono-SemiBold.ttf') format('truetype');font-weight:600 800;font-display:swap}
+:root{
+ --bg:#1B1B3A;--surface:#F4E9CD;--paper:#FFFAEA;--ink:#18182D;--muted:#565346;
+ --pink:#FF5C8A;--teal:#2EC4B6;--yellow:#FFD23F;--success:#4ADE80;--danger:#E63946;
+ --white:#FFFFFF;--black:#000000;--edge:#18182D;--line:#B8AE98;--bevel-light:#FFFDF1;--bevel-dark:#928873;
+ --inset:#DDD3BA;--dark-text:#F4E9CD;--focus:#A62259;--placeholder:#C8C2D9;
+ --font-ui:Arcade,'Courier New',monospace;--font-body:Plex,'Courier New',monospace;
+ --text-xs:10px;--text-sm:12px;--text-meta:13px;--text-body:16px;--text-question:20px;--text-answer:18px;--text-title:34px;--text-answer-large:22px;
+ --space-1:4px;--space-2:8px;--space-3:12px;--space-4:16px;--space-5:20px;--space-6:24px;--space-8:32px;
+ --border:2px solid var(--edge);--border-strong:3px solid var(--edge);--radius:0px;
+ --shadow:4px 4px 0 var(--black);--shadow-large:8px 8px 0 var(--black);
+ --raised:inset 2px 2px 0 var(--bevel-light),inset -2px -2px 0 var(--bevel-dark);
+ --pressed:inset 2px 2px 0 var(--bevel-dark),inset -2px -2px 0 var(--bevel-light);
+ --motion:180ms;--step:steps(4,end);--scan-opacity:.035;--scan-pattern:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4'%3E%3Cpath d='M0 3H4' stroke='%23ffffff'/%3E%3C/svg%3E");
+ --tap:44px;--page-width:1100px;--nav-height:70px;
+}
+
+.subject-switch{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap;margin-bottom:20px}.subject-switch .breadcrumb{margin:0}.subject-switch label{display:grid;gap:7px;font-size:11px;letter-spacing:1px}.subject-switch select{min-height:44px;max-width:100%;font:inherit;font-size:15px;letter-spacing:0;padding:8px 32px 8px 10px;border:2px solid var(--ink,#1B1B3A);background:#fffaf0;color:#1B1B3A}.subject-switch select:focus-visible{outline:3px solid #FF5C8A;outline-offset:3px}@media(max-width:500px){.subject-switch{display:block}.subject-switch label{margin-top:16px}.subject-switch select{width:100%}}

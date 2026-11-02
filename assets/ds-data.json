@@ -1,0 +1,3055 @@
+{
+  "version": 1,
+  "subject": "Data Structure",
+  "course": "CSPCC2002",
+  "papers": [
+    {
+      "id": "ds-ct1-25",
+      "name": "CT1 · AY 2025–26",
+      "academicYear": "2025-26",
+      "filterYear": "AY 2025-26",
+      "year": null,
+      "type": "CT1",
+      "date": null,
+      "marks": 15,
+      "duration": "1 hour",
+      "semesterPrinted": "IV (NEP)",
+      "files": [
+        "ds/ct1-2025-26.jpg"
+      ],
+      "note": "Academic year 2025-26 is printed; exact exam date and calendar year are unverified. Printed semester: IV (NEP).",
+      "instructions": "Attempt any three questions; each carries 5 marks."
+    },
+    {
+      "id": "ds-ct2-25",
+      "name": "CT2 · AY 2025–26",
+      "academicYear": "2025-26",
+      "filterYear": "AY 2025-26",
+      "year": null,
+      "type": "CT2",
+      "date": null,
+      "marks": 15,
+      "duration": "1 hour",
+      "semesterPrinted": "III",
+      "files": [
+        "ds/ct2-2025-26.jpg"
+      ],
+      "note": "Academic year 2025-26 is printed; exact exam date and calendar year are unverified. Printed semester: III.",
+      "instructions": "Attempt any three questions; each carries 5 marks."
+    },
+    {
+      "id": "ds-ct1-24-b",
+      "name": "CT1 · AY 2024–25 · variant B",
+      "academicYear": "2024-25",
+      "filterYear": "AY 2024-25",
+      "year": null,
+      "type": "CT1",
+      "date": null,
+      "marks": 15,
+      "duration": "1 hour",
+      "semesterPrinted": "IV (NEP)",
+      "files": [
+        "ds/ct1-2024-25.jpg"
+      ],
+      "note": "Academic year 2024-25 is printed; exact exam date and calendar year are unverified. Printed semester: IV (NEP). Two different CT1 sets share AY 2024–25; variant labels distinguish uploads, not main/retest status.",
+      "instructions": "Attempt any three questions; each carries 5 marks."
+    },
+    {
+      "id": "ds-ct1-24-a",
+      "name": "CT1 · AY 2024–25 · variant A",
+      "academicYear": "2024-25",
+      "filterYear": "AY 2024-25",
+      "year": null,
+      "type": "CT1",
+      "date": null,
+      "marks": 15,
+      "duration": "1 hour",
+      "semesterPrinted": "IV (NEP)",
+      "files": [
+        "ds/page-1.png"
+      ],
+      "note": "Academic year 2024-25 is printed; exact exam date and calendar year are unverified. Printed semester: IV (NEP). Two different CT1 sets share AY 2024–25; variant labels distinguish uploads, not main/retest status.",
+      "instructions": "Attempt any three questions; each carries 5 marks."
+    },
+    {
+      "id": "ds-ct2-24",
+      "name": "CT2 · AY 2024–25",
+      "academicYear": "2024-25",
+      "filterYear": "AY 2024-25",
+      "year": null,
+      "type": "CT2",
+      "date": null,
+      "marks": 15,
+      "duration": "1 hour",
+      "semesterPrinted": "III",
+      "files": [
+        "ds/page-4.png"
+      ],
+      "note": "Academic year 2024-25 is printed; exact exam date and calendar year are unverified. Printed semester: III.",
+      "instructions": "Attempt any three questions; each carries 5 marks."
+    },
+    {
+      "id": "ds-end-24",
+      "name": "End Semester · 16 Dec 2024",
+      "academicYear": null,
+      "filterYear": "2024",
+      "year": 2024,
+      "type": "End Semester",
+      "date": "16/12/2024",
+      "marks": 60,
+      "duration": "2 hours 30 minutes",
+      "semesterPrinted": null,
+      "files": [
+        "ds/page-3.png",
+        "ds/page-2.png"
+      ],
+      "note": "Printed date: 16 December 2024. PDF page 3 is the first exam page and page 2 is its continuation.",
+      "instructions": "Q1–Q3: attempt any two parts each. Q4–Q5: attempt all parts."
+    }
+  ],
+  "questions": [
+    {
+      "id": "ds-q01",
+      "paper": "ds-ct1-25",
+      "ref": "Q1",
+      "title": "Infix, postfix and prefix",
+      "topic": "Expressions",
+      "answers": [
+        "exam-guide-ds-q01",
+        "notation"
+      ],
+      "family": "notation",
+      "original": "Discuss the Infix, Postfix, Prefix with suitable example.",
+      "marks": 5,
+      "note": null,
+      "page": null,
+      "wordingNormalized": true,
+      "examPlan": [
+        "Start with the meaning, then explain the points asked in the question. Use a short example where it makes the idea clear."
+      ]
+    },
+    {
+      "id": "ds-q02",
+      "paper": "ds-ct1-25",
+      "ref": "Q2",
+      "title": "Queue and sequential representation",
+      "topic": "Queues",
+      "answers": [
+        "exam-guide-ds-q02",
+        "queue-array"
+      ],
+      "family": "queue-array",
+      "original": "Elaborate the Queue and its sequential representation with suitable example.",
+      "marks": 5,
+      "note": null,
+      "page": null,
+      "wordingNormalized": true,
+      "examPlan": [
+        "Start with the meaning, then explain the points asked in the question. Use a short example where it makes the idea clear."
+      ]
+    },
+    {
+      "id": "ds-q03",
+      "paper": "ds-ct1-25",
+      "ref": "Q3",
+      "title": "Sequential storage and linked lists",
+      "topic": "Linked lists",
+      "answers": [
+        "exam-guide-ds-q03",
+        "linked"
+      ],
+      "family": "linked",
+      "original": "Demonstrate the drawback of sequential storage in data structure and discuss the Linked list with suitable example.",
+      "marks": 5,
+      "note": null,
+      "page": null,
+      "wordingNormalized": true,
+      "examPlan": [
+        "Include the labelled diagram and explain its main parts or steps."
+      ]
+    },
+    {
+      "id": "ds-q04",
+      "paper": "ds-ct1-25",
+      "ref": "Q4",
+      "title": "Recursive linked-list output",
+      "topic": "Linked lists",
+      "answers": [
+        "exam-guide-ds-q04",
+        "reverse-print"
+      ],
+      "family": "reverse-print",
+      "original": "What does the following function do for a given Linked List with first node as head? Explain why? void fun1(struct node* head) { if(head == NULL) return; fun1(head->next); printf(\"%d \", head->data); } (A) Prints all nodes (B) Prints all nodes in reverse order (C) Prints alternate nodes (D) Prints alternate nodes in reverse order.",
+      "marks": 5,
+      "note": null,
+      "page": null,
+      "wordingNormalized": true,
+      "examPlan": [
+        "Show the given data or starting state, the intermediate working and the final result. Keep units and stated assumptions."
+      ]
+    },
+    {
+      "id": "ds-q05",
+      "paper": "ds-ct1-25",
+      "ref": "Q5",
+      "title": "Circular list and stack push",
+      "topic": "Linked lists",
+      "answers": [
+        "exam-guide-ds-q05",
+        "circular-push"
+      ],
+      "family": "circular-push",
+      "original": "Illustrate the Circular Linked list and write C function to push x on to the stack, where stack is a pointer to circular list acting as stack.",
+      "marks": 5,
+      "note": null,
+      "page": null,
+      "wordingNormalized": true,
+      "examPlan": [
+        "Start with the meaning, then explain the points asked in the question. Use a short example where it makes the idea clear."
+      ]
+    },
+    {
+      "id": "ds-q06",
+      "paper": "ds-ct2-25",
+      "ref": "Q1",
+      "title": "Binary, non-binary and strictly binary trees",
+      "topic": "Trees",
+      "answers": [
+        "exam-guide-ds-q06",
+        "strict"
+      ],
+      "family": "strict",
+      "original": "Distinguish binary tree and non-binary tree and describe the strictly binary tree with key characteristics of it.",
+      "marks": 5,
+      "note": null,
+      "page": null,
+      "wordingNormalized": true,
+      "examPlan": [
+        "Use separate headings for the properties, types, advantages, limitations or uses requested in this question."
+      ]
+    },
+    {
+      "id": "ds-q07",
+      "paper": "ds-ct2-25",
+      "ref": "Q2",
+      "title": "Expression trees: all four expressions",
+      "topic": "Expression trees",
+      "answers": [
+        "exam-guide-ds-q07",
+        "expressions"
+      ],
+      "family": "expressions",
+      "original": "Demonstrate the binary tree representation for following expression: a) A+B*C; b) (A+B)*C; c) A+(B-C)*D$(E*F); d) (A+B*C)$((A+B)*C).",
+      "marks": 5,
+      "note": null,
+      "page": null,
+      "wordingNormalized": true,
+      "examPlan": [
+        "Show the given data or starting state, the intermediate working and the final result. Keep units and stated assumptions."
+      ]
+    },
+    {
+      "id": "ds-q08",
+      "paper": "ds-ct2-25",
+      "ref": "Q3",
+      "title": "B-tree of order n",
+      "topic": "B-trees",
+      "answers": [
+        "exam-guide-ds-q08",
+        "btree"
+      ],
+      "family": "btree",
+      "original": "Illustrate the B-tree of order of n and describe the functioning of it with an example.",
+      "marks": 5,
+      "note": null,
+      "page": null,
+      "wordingNormalized": true,
+      "examPlan": [
+        "Start with the meaning, then explain the points asked in the question. Use a short example where it makes the idea clear."
+      ]
+    },
+    {
+      "id": "ds-q09",
+      "paper": "ds-ct2-25",
+      "ref": "Q4",
+      "title": "Graph and types of graphs",
+      "topic": "Graphs",
+      "answers": [
+        "exam-guide-ds-q09",
+        "graphs"
+      ],
+      "family": "graphs",
+      "original": "Describe the graph and discuss the types of Graphs in Data Structure.",
+      "marks": 5,
+      "note": null,
+      "page": null,
+      "wordingNormalized": true,
+      "examPlan": [
+        "Use separate headings for the properties, types, advantages, limitations or uses requested in this question."
+      ]
+    },
+    {
+      "id": "ds-q10",
+      "paper": "ds-ct2-25",
+      "ref": "Q5",
+      "title": "Adjacency matrix: forms and applications",
+      "topic": "Graphs",
+      "answers": [
+        "exam-guide-ds-q10",
+        "matrix"
+      ],
+      "family": "matrix",
+      "original": "Demonstrate the Adjacency Matrix Representation and all its type with application of it.",
+      "marks": 5,
+      "note": null,
+      "page": null,
+      "wordingNormalized": true,
+      "examPlan": [
+        "Use separate headings for the properties, types, advantages, limitations or uses requested in this question."
+      ]
+    },
+    {
+      "id": "ds-q11",
+      "paper": "ds-ct1-24-b",
+      "ref": "Q1",
+      "title": "Stack as an ADT",
+      "topic": "Stacks",
+      "answers": [
+        "exam-guide-ds-q11",
+        "stack"
+      ],
+      "family": "stack",
+      "original": "Discuss stack as an ADT in data structure using abstract typedef <<eltype>>.",
+      "marks": 5,
+      "note": null,
+      "page": null,
+      "wordingNormalized": true,
+      "examPlan": [
+        "Start with the meaning, then explain the points asked in the question. Use a short example where it makes the idea clear."
+      ]
+    },
+    {
+      "id": "ds-q12",
+      "paper": "ds-ct1-24-b",
+      "ref": "Q2",
+      "title": "Queue and sequential representation",
+      "topic": "Queues",
+      "answers": [
+        "exam-guide-ds-q12",
+        "queue-array"
+      ],
+      "family": "queue-array",
+      "original": "Elaborate the Queue and its sequential representation with suitable example.",
+      "marks": 5,
+      "note": null,
+      "page": null,
+      "wordingNormalized": true,
+      "examPlan": [
+        "Start with the meaning, then explain the points asked in the question. Use a short example where it makes the idea clear."
+      ]
+    },
+    {
+      "id": "ds-q13",
+      "paper": "ds-ct1-24-b",
+      "ref": "Q3",
+      "title": "Infix, postfix and prefix",
+      "topic": "Expressions",
+      "answers": [
+        "exam-guide-ds-q13",
+        "notation"
+      ],
+      "family": "notation",
+      "original": "Illustrate the Infix, Postfix and prefix using suitable example.",
+      "marks": 5,
+      "note": null,
+      "page": null,
+      "wordingNormalized": true,
+      "examPlan": [
+        "Start with the meaning, then explain the points asked in the question. Use a short example where it makes the idea clear."
+      ]
+    },
+    {
+      "id": "ds-q14",
+      "paper": "ds-ct1-24-b",
+      "ref": "Q4",
+      "title": "Insert and remove linked-list nodes",
+      "topic": "Linked lists",
+      "answers": [
+        "exam-guide-ds-q14",
+        "list-edit"
+      ],
+      "family": "list-edit",
+      "original": "Discuss the Inserting and Removing Nodes from a List in linked list.",
+      "marks": 5,
+      "note": null,
+      "page": null,
+      "wordingNormalized": true,
+      "examPlan": [
+        "Start with the meaning, then explain the points asked in the question. Use a short example where it makes the idea clear."
+      ]
+    },
+    {
+      "id": "ds-q15",
+      "paper": "ds-ct1-24-b",
+      "ref": "Q5",
+      "title": "Doubly linked list and applications",
+      "topic": "Linked lists",
+      "answers": [
+        "exam-guide-ds-q15",
+        "doubly"
+      ],
+      "family": "doubly",
+      "original": "Illustrate the doubly Linked List and note down the application of it over the conventional linked list.",
+      "marks": 5,
+      "note": null,
+      "page": null,
+      "wordingNormalized": true,
+      "examPlan": [
+        "Use separate headings for the properties, types, advantages, limitations or uses requested in this question."
+      ]
+    },
+    {
+      "id": "ds-q16",
+      "paper": "ds-ct1-24-a",
+      "ref": "Q1",
+      "title": "Data structures and their types",
+      "topic": "Fundamentals",
+      "answers": [
+        "exam-guide-ds-q16",
+        "types"
+      ],
+      "family": "types",
+      "original": "Discuss data structure and all types in detail.",
+      "marks": 5,
+      "note": null,
+      "page": 1,
+      "wordingNormalized": true,
+      "examPlan": [
+        "Use separate headings for the properties, types, advantages, limitations or uses requested in this question."
+      ]
+    },
+    {
+      "id": "ds-q17",
+      "paper": "ds-ct1-24-a",
+      "ref": "Q2",
+      "title": "Queue and sequential representation",
+      "topic": "Queues",
+      "answers": [
+        "exam-guide-ds-q17",
+        "queue-array"
+      ],
+      "family": "queue-array",
+      "original": "Elaborate the Queue and its sequential representation with suitable example.",
+      "marks": 5,
+      "note": null,
+      "page": 1,
+      "wordingNormalized": true,
+      "examPlan": [
+        "Start with the meaning, then explain the points asked in the question. Use a short example where it makes the idea clear."
+      ]
+    },
+    {
+      "id": "ds-q18",
+      "paper": "ds-ct1-24-a",
+      "ref": "Q3",
+      "title": "Sequential storage and linked lists",
+      "topic": "Linked lists",
+      "answers": [
+        "exam-guide-ds-q18",
+        "linked"
+      ],
+      "family": "linked",
+      "original": "Demonstrate the drawback of sequential storage in data structure and discuss the Linked list with suitable example.",
+      "marks": 5,
+      "note": null,
+      "page": 1,
+      "wordingNormalized": true,
+      "examPlan": [
+        "Include the labelled diagram and explain its main parts or steps."
+      ]
+    },
+    {
+      "id": "ds-q19",
+      "paper": "ds-ct1-24-a",
+      "ref": "Q4",
+      "title": "Doubly linked list and applications",
+      "topic": "Linked lists",
+      "answers": [
+        "exam-guide-ds-q19",
+        "doubly"
+      ],
+      "family": "doubly",
+      "original": "Illustrate the doubly Linked List and note down the application of it over the conventional linked list.",
+      "marks": 5,
+      "note": null,
+      "page": 1,
+      "wordingNormalized": true,
+      "examPlan": [
+        "Use separate headings for the properties, types, advantages, limitations or uses requested in this question."
+      ]
+    },
+    {
+      "id": "ds-q20",
+      "paper": "ds-ct1-24-a",
+      "ref": "Q5",
+      "title": "Rational-number ADT in C",
+      "topic": "Abstract data types",
+      "answers": [
+        "exam-guide-ds-q20",
+        "rational"
+      ],
+      "family": "rational",
+      "original": "Write a program using ADT for rational numbers: create from two integers, addition, multiplication and equality.",
+      "marks": 5,
+      "note": null,
+      "page": 1,
+      "wordingNormalized": true,
+      "examPlan": [
+        "Explain the approach briefly, then write the required algorithm or indented code. Include an example or output when asked."
+      ]
+    },
+    {
+      "id": "ds-q21",
+      "paper": "ds-ct2-24",
+      "ref": "Q1",
+      "title": "Binary and non-binary trees",
+      "topic": "Trees",
+      "answers": [
+        "exam-guide-ds-q21",
+        "binary"
+      ],
+      "family": "binary",
+      "original": "Distinguish binary tree and non-binary tree and describe the binary tree with suitable example.",
+      "marks": 5,
+      "note": null,
+      "page": 4,
+      "wordingNormalized": true,
+      "examPlan": [
+        "Start with the meaning, then explain the points asked in the question. Use a short example where it makes the idea clear."
+      ]
+    },
+    {
+      "id": "ds-q22",
+      "paper": "ds-ct2-24",
+      "ref": "Q2",
+      "title": "Binary-tree traversal methods",
+      "topic": "Trees",
+      "answers": [
+        "exam-guide-ds-q22",
+        "traversals"
+      ],
+      "family": "traversals",
+      "original": "Describe the different traversal methods of binary tree with suitable example.",
+      "marks": 5,
+      "note": null,
+      "page": 4,
+      "wordingNormalized": true,
+      "examPlan": [
+        "Present the differences side by side. Compare the same feature in both columns."
+      ]
+    },
+    {
+      "id": "ds-q23",
+      "paper": "ds-ct2-24",
+      "ref": "Q3",
+      "title": "B-tree of order n",
+      "topic": "B-trees",
+      "answers": [
+        "exam-guide-ds-q23",
+        "btree"
+      ],
+      "family": "btree",
+      "original": "Illustrate the B-tree of order n and describe its functioning with an example.",
+      "marks": 5,
+      "note": null,
+      "page": 4,
+      "wordingNormalized": true,
+      "examPlan": [
+        "Start with the meaning, then explain the points asked in the question. Use a short example where it makes the idea clear."
+      ]
+    },
+    {
+      "id": "ds-q24",
+      "paper": "ds-ct2-24",
+      "ref": "Q4",
+      "title": "Graphs and three traversal difficulties",
+      "topic": "Graphs",
+      "answers": [
+        "exam-guide-ds-q24",
+        "graph-complex"
+      ],
+      "family": "graph-complex",
+      "original": "Define graph and explain three reasons why graph traversal is more complex than linked-list and tree traversal.",
+      "marks": 5,
+      "note": null,
+      "page": 4,
+      "wordingNormalized": true,
+      "examPlan": [
+        "Start with the meaning, then explain the points asked in the question. Use a short example where it makes the idea clear."
+      ]
+    },
+    {
+      "id": "ds-q25",
+      "paper": "ds-ct2-24",
+      "ref": "Q5",
+      "title": "Depth-first traversal",
+      "topic": "Graphs",
+      "answers": [
+        "exam-guide-ds-q25",
+        "dfs"
+      ],
+      "family": "dfs",
+      "original": "Describe depth-first traversal with suitable example.",
+      "marks": 5,
+      "note": null,
+      "page": 4,
+      "wordingNormalized": true,
+      "examPlan": [
+        "Start with the meaning, then explain the points asked in the question. Use a short example where it makes the idea clear."
+      ]
+    },
+    {
+      "id": "ds-q26",
+      "paper": "ds-end-24",
+      "ref": "Q1A",
+      "title": "Stack as an ADT",
+      "topic": "Stacks",
+      "answers": [
+        "exam-guide-ds-q26",
+        "stack"
+      ],
+      "family": "stack",
+      "original": "Elaborate stack ADT in detail.",
+      "marks": 6,
+      "note": null,
+      "page": 3,
+      "wordingNormalized": true,
+      "examPlan": [
+        "Start with the meaning, then explain the points asked in the question. Use a short example where it makes the idea clear."
+      ]
+    },
+    {
+      "id": "ds-q27",
+      "paper": "ds-end-24",
+      "ref": "Q1B",
+      "title": "Infix, postfix and prefix",
+      "topic": "Expressions",
+      "answers": [
+        "exam-guide-ds-q27",
+        "notation"
+      ],
+      "family": "notation",
+      "original": "Explain infix, postfix and prefix with suitable example.",
+      "marks": 6,
+      "note": null,
+      "page": 3,
+      "wordingNormalized": true,
+      "examPlan": [
+        "Start with the meaning, then explain the points asked in the question. Use a short example where it makes the idea clear."
+      ]
+    },
+    {
+      "id": "ds-q28",
+      "paper": "ds-end-24",
+      "ref": "Q1C",
+      "title": "Queue ADT and implementation",
+      "topic": "Queues",
+      "answers": [
+        "exam-guide-ds-q28",
+        "queue-adt"
+      ],
+      "family": "queue-adt",
+      "original": "Explain queue ADT with implementation.",
+      "marks": 6,
+      "note": null,
+      "page": 3,
+      "wordingNormalized": true,
+      "examPlan": [
+        "Start with the meaning, then explain the points asked in the question. Use a short example where it makes the idea clear."
+      ]
+    },
+    {
+      "id": "ds-q29",
+      "paper": "ds-end-24",
+      "ref": "Q2A",
+      "title": "Insertion and deletion at the end",
+      "topic": "Linked lists",
+      "answers": [
+        "exam-guide-ds-q29",
+        "end-edit"
+      ],
+      "family": "end-edit",
+      "original": "Write algorithms for insertion and deletion of nodes at the end of a linked list.",
+      "marks": 6,
+      "note": null,
+      "page": 3,
+      "wordingNormalized": true,
+      "examPlan": [
+        "Explain the approach briefly, then write the required algorithm or indented code. Include an example or output when asked."
+      ]
+    },
+    {
+      "id": "ds-q30",
+      "paper": "ds-end-24",
+      "ref": "Q2B",
+      "title": "Circular linked list",
+      "topic": "Linked lists",
+      "answers": [
+        "exam-guide-ds-q30",
+        "circular"
+      ],
+      "family": "circular",
+      "original": "Explain circular linked list with suitable example.",
+      "marks": 6,
+      "note": null,
+      "page": 3,
+      "wordingNormalized": true,
+      "examPlan": [
+        "Start with the meaning, then explain the points asked in the question. Use a short example where it makes the idea clear."
+      ]
+    },
+    {
+      "id": "ds-q31",
+      "paper": "ds-end-24",
+      "ref": "Q2C",
+      "title": "Linked-list MCQs with reasons",
+      "topic": "Linked lists",
+      "answers": [
+        "exam-guide-ds-q31",
+        "mcq"
+      ],
+      "family": "mcq",
+      "original": "Choose correct options and explain: (i) recursive function calls fun1(head->next) then prints head->data; (ii) statement to complete list reversal: *head_ref = prev/current/next/NULL; (iii) array cache locality, linked-list insertion/deletion, no random access, fixed array capacity versus linked-list size, or all of the above.",
+      "marks": 6,
+      "note": "Three MCQs share 6 marks; reversal loop is absent from the scan.",
+      "page": "3 and 2",
+      "wordingNormalized": true,
+      "examPlan": [
+        "Present the differences side by side. Compare the same feature in both columns."
+      ]
+    },
+    {
+      "id": "ds-q32",
+      "paper": "ds-end-24",
+      "ref": "Q3A",
+      "title": "Binary-tree operations and applications",
+      "topic": "Trees",
+      "answers": [
+        "exam-guide-ds-q32",
+        "tree-ops"
+      ],
+      "family": "tree-ops",
+      "original": "Discuss operations on binary tree and its applications.",
+      "marks": 6,
+      "note": null,
+      "page": 2,
+      "wordingNormalized": true,
+      "examPlan": [
+        "Use separate headings for the properties, types, advantages, limitations or uses requested in this question."
+      ]
+    },
+    {
+      "id": "ds-q33",
+      "paper": "ds-end-24",
+      "ref": "Q3B",
+      "title": "Binary-tree traversal methods",
+      "topic": "Trees",
+      "answers": [
+        "exam-guide-ds-q33",
+        "traversals"
+      ],
+      "family": "traversals",
+      "original": "Describe different binary-tree traversal methods with an example.",
+      "marks": 6,
+      "note": null,
+      "page": 2,
+      "wordingNormalized": true,
+      "examPlan": [
+        "Present the differences side by side. Compare the same feature in both columns."
+      ]
+    },
+    {
+      "id": "ds-q34",
+      "paper": "ds-end-24",
+      "ref": "Q3C",
+      "title": "B-tree of order n",
+      "topic": "B-trees",
+      "answers": [
+        "exam-guide-ds-q34",
+        "btree"
+      ],
+      "family": "btree-insertion",
+      "original": "Explain B-tree of order n and insertion with an example.",
+      "marks": 6,
+      "note": null,
+      "page": 2,
+      "wordingNormalized": true,
+      "examPlan": [
+        "Start with the meaning, then explain the points asked in the question. Use a short example where it makes the idea clear."
+      ]
+    },
+    {
+      "id": "ds-q35",
+      "paper": "ds-end-24",
+      "ref": "Q4A",
+      "title": "Graphs and three traversal difficulties",
+      "topic": "Graphs",
+      "answers": [
+        "exam-guide-ds-q35",
+        "graph-complex"
+      ],
+      "family": "graph-complex",
+      "original": "Define graph. Give three reasons why graph traversal is more complex than list and tree traversal.",
+      "marks": 6,
+      "note": null,
+      "page": 2,
+      "wordingNormalized": true,
+      "examPlan": [
+        "Start with the meaning, then explain the points asked in the question. Use a short example where it makes the idea clear."
+      ]
+    },
+    {
+      "id": "ds-q36",
+      "paper": "ds-end-24",
+      "ref": "Q4B",
+      "title": "Depth-first traversal",
+      "topic": "Graphs",
+      "answers": [
+        "exam-guide-ds-q36",
+        "dfs"
+      ],
+      "family": "dfs-applications",
+      "original": "Explain Depth First traversal technique and its applications.",
+      "marks": 6,
+      "note": null,
+      "page": 2,
+      "wordingNormalized": true,
+      "examPlan": [
+        "Use separate headings for the properties, types, advantages, limitations or uses requested in this question."
+      ]
+    },
+    {
+      "id": "ds-q37",
+      "paper": "ds-end-24",
+      "ref": "Q5A",
+      "title": "Merge sort",
+      "topic": "Sorting",
+      "answers": [
+        "exam-guide-ds-q37",
+        "merge"
+      ],
+      "family": "merge",
+      "original": "Explain Merge Sort algorithm with suitable example.",
+      "marks": 6,
+      "note": null,
+      "page": 2,
+      "wordingNormalized": true,
+      "examPlan": [
+        "Explain the approach briefly, then write the required algorithm or indented code. Include an example or output when asked."
+      ]
+    },
+    {
+      "id": "ds-q38",
+      "paper": "ds-end-24",
+      "ref": "Q5B",
+      "title": "Searching techniques and binary search",
+      "topic": "Searching",
+      "answers": [
+        "exam-guide-ds-q38",
+        "search"
+      ],
+      "family": "search",
+      "original": "Discuss searching techniques and elaborate any one.",
+      "marks": 6,
+      "note": null,
+      "page": 2,
+      "wordingNormalized": true,
+      "examPlan": [
+        "Start with the meaning, then explain the points asked in the question. Use a short example where it makes the idea clear."
+      ]
+    }
+  ],
+  "answers": {
+    "notation": {
+      "title": "Infix, postfix and prefix",
+      "sections": [
+        {
+          "title": "Understand the idea",
+          "paragraphs": [],
+          "bullets": [
+            "An operand is a value, such as A or B.",
+            "An operator is an action, such as +.",
+            "Infix, prefix and postfix describe where the operator is written."
+          ],
+          "ordered": true
+        },
+        {
+          "title": "Three ways to write an expression",
+          "paragraphs": [],
+          "bullets": [
+            "The operands stay in their logical order.",
+            "The position of the operator changes."
+          ],
+          "ordered": true
+        },
+        {
+          "title": "Compare the notations",
+          "paragraphs": [],
+          "bullets": [],
+          "table": {
+            "headers": [
+              "Notation",
+              "Operator position",
+              "Example: (A+B)*C"
+            ],
+            "rows": [
+              [
+                "Infix",
+                "Between operands",
+                "(A+B)*C"
+              ],
+              [
+                "Postfix",
+                "After operands",
+                "AB+C*"
+              ],
+              [
+                "Prefix",
+                "Before operands",
+                "*+ABC"
+              ]
+            ]
+          }
+        },
+        {
+          "title": "How to read the example",
+          "paragraphs": [],
+          "bullets": [
+            "First calculate A+B. Then multiply the result by C.",
+            "In postfix, AB+ forms the sum; C* multiplies it. In prefix, the first * combines +AB with C.",
+            "For A+B*C, multiplication happens first: postfix ABC*+ and prefix +A*BC.",
+            "Infix needs precedence and sometimes parentheses. Unambiguous prefix/postfix expressions do not need parentheses. A stack can evaluate them."
+          ],
+          "ordered": true
+        }
+      ],
+      "text": "Infix, postfix and prefix\nUnderstand the idea\nAn operand is a value, such as A or B.\nAn operator is an action, such as +.\nInfix, prefix and postfix describe where the operator is written.\n\n\nThree ways to write an expression\nThe operands stay in their logical order.\nThe position of the operator changes.\n\n\nCompare the notations\n\n{'headers': ['Notation', 'Operator position', 'Example: (A+B)*C'], 'rows': [['Infix', 'Between operands', '(A+B)*C'], ['Postfix', 'After operands', 'AB+C*'], ['Prefix', 'Before operands', '*+ABC']]}\nHow to read the example\nFirst calculate A+B. Then multiply the result by C.\nIn postfix, AB+ forms the sum; C* multiplies it. In prefix, the first * combines +AB with C.\nFor A+B*C, multiplication happens first: postfix ABC*+ and prefix +A*BC.\nInfix needs precedence and sometimes parentheses. Unambiguous prefix/postfix expressions do not need parentheses. A stack can evaluate them.\n\n"
+    },
+    "queue-array": {
+      "title": "Queue and sequential representation",
+      "sections": [
+        {
+          "title": "Understand the idea",
+          "paragraphs": [],
+          "bullets": [
+            "A queue follows “first in, first out”, like people waiting at a counter.",
+            "Insert at the rear and remove from the front.",
+            "An array can store these items."
+          ],
+          "ordered": true
+        },
+        {
+          "title": "Queue",
+          "paragraphs": [],
+          "bullets": [
+            "A queue follows FIFO: the first item inserted is the first removed.",
+            "Enqueue inserts at the rear; dequeue removes from the front."
+          ],
+          "ordered": true
+        },
+        {
+          "title": "Array representation",
+          "paragraphs": [],
+          "bullets": [
+            "Store elements in consecutive array positions Q[0..N-1]. At the start front=0 and rear=-1; the queue is empty when front>rear."
+          ],
+          "diagram": "queue",
+          "ordered": false
+        },
+        {
+          "title": "Operations",
+          "paragraphs": [],
+          "bullets": [],
+          "code": "ENQUEUE(x):\n  if rear == N-1: report full\n  else: rear = rear+1; Q[rear] = x\nDEQUEUE():\n  if front > rear: report empty\n  else: x = Q[front]; front = front+1; return x"
+        },
+        {
+          "title": "Example and limitation",
+          "paragraphs": [],
+          "bullets": [
+            "Enqueue 10,20,30 gives front=0 and rear=2. Dequeue returns 10 and moves front to 1.",
+            "Both operations take O(1).",
+            "In this simple linear representation, free positions before front cannot be reused after rear reaches N-1. A circular queue reuses them.",
+            "Printing and service-request scheduling are FIFO applications."
+          ],
+          "ordered": true
+        }
+      ],
+      "text": "Queue and sequential representation\nUnderstand the idea\nA queue follows “first in, first out”, like people waiting at a counter.\nInsert at the rear and remove from the front.\nAn array can store these items.\n\n\nQueue\nA queue follows FIFO: the first item inserted is the first removed.\nEnqueue inserts at the rear; dequeue removes from the front.\n\n\nArray representation\nStore elements in consecutive array positions Q[0..N-1]. At the start front=0 and rear=-1; the queue is empty when front>rear.\n\n\nOperations\nENQUEUE(x):\n  if rear == N-1: report full\n  else: rear = rear+1; Q[rear] = x\nDEQUEUE():\n  if front > rear: report empty\n  else: x = Q[front]; front = front+1; return x\n\nExample and limitation\nEnqueue 10,20,30 gives front=0 and rear=2. Dequeue returns 10 and moves front to 1.\nBoth operations take O(1).\nIn this simple linear representation, free positions before front cannot be reused after rear reaches N-1. A circular queue reuses them.\nPrinting and service-request scheduling are FIFO applications.\n\n"
+    },
+    "linked": {
+      "title": "Sequential storage and linked lists",
+      "sections": [
+        {
+          "title": "Understand the idea",
+          "paragraphs": [],
+          "bullets": [
+            "An array keeps items next to one another in memory. A linked list keeps items in nodes, with each node storing a link to the next node."
+          ],
+          "ordered": false
+        },
+        {
+          "title": "Drawbacks of sequential storage",
+          "paragraphs": [],
+          "bullets": [
+            "An array uses a next to one another memory block and has a fixed capacity after allocation.",
+            "Inserting or deleting in the middle shifts later elements: O(n) time.",
+            "An oversized array wastes reserved space; growing it may need allocation and copying."
+          ],
+          "ordered": true
+        },
+        {
+          "title": "Linked-list representation",
+          "paragraphs": [],
+          "bullets": [
+            "Each node stores data and a pointer to the next node.",
+            "Nodes need not occupy adjacent memory addresses. head points to the first node; NULL ends a singly linked list."
+          ],
+          "diagram": "list",
+          "ordered": true
+        },
+        {
+          "title": "Example and trade-offs",
+          "paragraphs": [],
+          "bullets": [
+            "To insert 15 after node 10: new->next = node10->next, then node10->next = new. Only links change.",
+            "Insertion/deletion is O(1) when the required predecessor is already known.",
+            "Finding it takes O(n).",
+            "Linked lists grow node by node, but need pointer memory, have no O(1) index access, and often have poorer cache locality than arrays."
+          ],
+          "ordered": true
+        }
+      ],
+      "text": "Sequential storage and linked lists\nUnderstand the idea\nAn array keeps items next to one another in memory. A linked list keeps items in nodes, with each node storing a link to the next node.\n\n\nDrawbacks of sequential storage\nAn array uses a next to one another memory block and has a fixed capacity after allocation.\nInserting or deleting in the middle shifts later elements: O(n) time.\nAn oversized array wastes reserved space; growing it may need allocation and copying.\n\n\nLinked-list representation\nEach node stores data and a pointer to the next node.\nNodes need not occupy adjacent memory addresses. head points to the first node; NULL ends a singly linked list.\n\n\nExample and trade-offs\nTo insert 15 after node 10: new->next = node10->next, then node10->next = new. Only links change.\nInsertion/deletion is O(1) when the required predecessor is already known.\nFinding it takes O(n).\nLinked lists grow node by node, but need pointer memory, have no O(1) index access, and often have poorer cache locality than arrays.\n\n"
+    },
+    "reverse-print": {
+      "title": "Recursive linked-list output",
+      "sections": [
+        {
+          "title": "Understand the idea",
+          "paragraphs": [],
+          "bullets": [
+            "A recursive function first visits the next node and prints the current node while returning.",
+            "This can print values in reverse order without reversing the links."
+          ],
+          "ordered": true
+        },
+        {
+          "title": "Correct option",
+          "paragraphs": [],
+          "bullets": [
+            "B — prints all nodes in reverse order.",
+            "It does not reverse the links."
+          ],
+          "result": true,
+          "ordered": true
+        },
+        {
+          "title": "Why",
+          "paragraphs": [],
+          "bullets": [
+            "The NULL check stops recursion. Each call first processes head->next and prints its own data only after that call returns. So the last node prints first."
+          ],
+          "code": "void fun1(struct node *head) {\n    if (head == NULL) return;\n    fun1(head->next);\n    printf(\"%d \", head->data);\n}",
+          "ordered": false
+        },
+        {
+          "title": "Trace: 10 → 20 → 30",
+          "paragraphs": [],
+          "bullets": [],
+          "table": {
+            "headers": [
+              "Stage",
+              "What happens"
+            ],
+            "rows": [
+              [
+                "Calls",
+                "10 → 20 → 30 → NULL"
+              ],
+              [
+                "Return from NULL",
+                "Print 30"
+              ],
+              [
+                "Next return",
+                "Print 20"
+              ],
+              [
+                "Final return",
+                "Print 10"
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Cost",
+          "paragraphs": [],
+          "bullets": [
+            "Output: 30 20 10.",
+            "Time O(n); recursion stack O(n).",
+            "An empty list prints nothing."
+          ],
+          "ordered": true
+        }
+      ],
+      "text": "Recursive linked-list output\nUnderstand the idea\nA recursive function first visits the next node and prints the current node while returning.\nThis can print values in reverse order without reversing the links.\n\n\nCorrect option\nB — prints all nodes in reverse order.\nIt does not reverse the links.\n\n\nWhy\nThe NULL check stops recursion. Each call first processes head->next and prints its own data only after that call returns. So the last node prints first.\nvoid fun1(struct node *head) {\n    if (head == NULL) return;\n    fun1(head->next);\n    printf(\"%d \", head->data);\n}\n\nTrace: 10 → 20 → 30\n\n{'headers': ['Stage', 'What happens'], 'rows': [['Calls', '10 → 20 → 30 → NULL'], ['Return from NULL', 'Print 30'], ['Next return', 'Print 20'], ['Final return', 'Print 10']]}\nCost\nOutput: 30 20 10.\nTime O(n); recursion stack O(n).\nAn empty list prints nothing.\n\n"
+    },
+    "circular-push": {
+      "title": "Circular list and stack push",
+      "sections": [
+        {
+          "title": "Understand the idea",
+          "paragraphs": [],
+          "bullets": [
+            "In a circular list, the last node points back to the first. A stack inserts and removes at its top.",
+            "Follow the pointer updates in the stated order."
+          ],
+          "ordered": true
+        },
+        {
+          "title": "Circular list",
+          "paragraphs": [],
+          "bullets": [
+            "The last node points to the first node instead of NULL. A stack must insert and remove from the same logical end to provide LIFO."
+          ],
+          "diagram": "circular",
+          "ordered": false
+        },
+        {
+          "title": "Pointer convention",
+          "paragraphs": [],
+          "bullets": [
+            "Use stack as a tail pointer. The top node is stack->next. This makes push O(1). An empty stack is NULL; a one-node stack points to itself. This convention is chosen explicitly because the question does not specify it."
+          ],
+          "ordered": false
+        },
+        {
+          "title": "C function",
+          "paragraphs": [],
+          "bullets": [],
+          "code": "#include <stdlib.h>\ntypedef struct Node {\n    int data; struct Node *next;\n} Node;\n/* Returns 1 on success, 0 if allocation fails. */\nint push(Node **stack, int x) {\n    Node *p = malloc(sizeof *p);\n    if (!p) return 0;\n    p->data = x;\n    if (*stack == NULL) {\n        p->next = p;\n        *stack = p;\n    } else {\n        p->next = (*stack)->next;\n        (*stack)->next = p;\n    }\n    return 1;\n}"
+        },
+        {
+          "title": "Effect",
+          "paragraphs": [],
+          "bullets": [
+            "For top 10 → 20 → tail 30, push(5) creates top 5 → 10 → 20 → 30 → 5. The tail remains 30. Call push(&stack,5). Allocation failure leaves the old list unchanged."
+          ],
+          "ordered": false
+        }
+      ],
+      "text": "Circular list and stack push\nUnderstand the idea\nIn a circular list, the last node points back to the first. A stack inserts and removes at its top.\nFollow the pointer updates in the stated order.\n\n\nCircular list\nThe last node points to the first node instead of NULL. A stack must insert and remove from the same logical end to provide LIFO.\n\n\nPointer convention\nUse stack as a tail pointer. The top node is stack->next. This makes push O(1). An empty stack is NULL; a one-node stack points to itself. This convention is chosen explicitly because the question does not specify it.\n\n\nC function\n#include <stdlib.h>\ntypedef struct Node {\n    int data; struct Node *next;\n} Node;\n/* Returns 1 on success, 0 if allocation fails. */\nint push(Node **stack, int x) {\n    Node *p = malloc(sizeof *p);\n    if (!p) return 0;\n    p->data = x;\n    if (*stack == NULL) {\n        p->next = p;\n        *stack = p;\n    } else {\n        p->next = (*stack)->next;\n        (*stack)->next = p;\n    }\n    return 1;\n}\n\nEffect\nFor top 10 → 20 → tail 30, push(5) creates top 5 → 10 → 20 → 30 → 5. The tail remains 30. Call push(&stack,5). Allocation failure leaves the old list unchanged.\n\n"
+    },
+    "stack": {
+      "title": "Stack as an ADT",
+      "sections": [
+        {
+          "title": "Understand the idea",
+          "paragraphs": [],
+          "bullets": [
+            "A stack follows “last in, first out”, like a stack of plates.",
+            "Push adds an item to the top; pop removes the top item."
+          ],
+          "ordered": true
+        },
+        {
+          "title": "Meaning",
+          "paragraphs": [],
+          "bullets": [
+            "A stack is an abstract data type with LIFO order: the last item pushed is the first popped.",
+            "The ADT specifies behaviour independently of array or linked-list storage."
+          ],
+          "ordered": true
+        },
+        {
+          "title": "Abstract interface",
+          "paragraphs": [],
+          "bullets": [],
+          "code": "abstract typedef <<eltype>> Stack;\ncreate() -> empty Stack\npush(S, x: eltype) -> insert x at top\npop(S) -> remove and return top element\npeek(S) -> return top without removing\nisEmpty(S) -> boolean\n/* pop/peek require a non-empty stack. */"
+        },
+        {
+          "title": "Array implementation",
+          "paragraphs": [],
+          "bullets": [
+            "Use an array A[N] and top=-1 at the start. Push: check top<N-1, then A[++top]=x. Pop: check top>=0, then return A[top--]. A full array causes overflow; popping an empty stack causes underflow."
+          ],
+          "ordered": false
+        },
+        {
+          "title": "Example and uses",
+          "paragraphs": [],
+          "bullets": [
+            "push(10), push(20), push(30) makes 30 the top. pop() returns 30; the next pop returns 20.",
+            "Push, pop and peek take O(1).",
+            "Applications include function calls, undo history, parenthesis matching and expression evaluation."
+          ],
+          "ordered": true
+        }
+      ],
+      "text": "Stack as an ADT\nUnderstand the idea\nA stack follows “last in, first out”, like a stack of plates.\nPush adds an item to the top; pop removes the top item.\n\n\nMeaning\nA stack is an abstract data type with LIFO order: the last item pushed is the first popped.\nThe ADT specifies behaviour independently of array or linked-list storage.\n\n\nAbstract interface\nabstract typedef <<eltype>> Stack;\ncreate() -> empty Stack\npush(S, x: eltype) -> insert x at top\npop(S) -> remove and return top element\npeek(S) -> return top without removing\nisEmpty(S) -> boolean\n/* pop/peek require a non-empty stack. */\n\nArray implementation\nUse an array A[N] and top=-1 at the start. Push: check top<N-1, then A[++top]=x. Pop: check top>=0, then return A[top--]. A full array causes overflow; popping an empty stack causes underflow.\n\n\nExample and uses\npush(10), push(20), push(30) makes 30 the top. pop() returns 30; the next pop returns 20.\nPush, pop and peek take O(1).\nApplications include function calls, undo history, parenthesis matching and expression evaluation.\n\n"
+    },
+    "list-edit": {
+      "title": "Insert and remove linked-list nodes",
+      "sections": [
+        {
+          "title": "Understand the idea",
+          "paragraphs": [],
+          "bullets": [
+            "To insert or remove a linked-list node, change the links that connect it to nearby nodes.",
+            "Handle an empty list and the first node separately."
+          ],
+          "ordered": true
+        },
+        {
+          "title": "Representation",
+          "paragraphs": [],
+          "bullets": [
+            "Use head for the first node and NULL for the end.",
+            "The examples use a singly linked list.",
+            "Always check allocation and empty-list cases."
+          ],
+          "diagram": "list",
+          "ordered": true
+        },
+        {
+          "title": "Insert a node",
+          "paragraphs": [],
+          "bullets": [
+            "At the beginning: new->next=head; head=new.",
+            "After a known node p: new->next=p->next; p->next=new.",
+            "At the end: set new->next=NULL; if empty, head=new; otherwise find the last node and set last->next=new."
+          ],
+          "ordered": true
+        },
+        {
+          "title": "Remove a node",
+          "paragraphs": [],
+          "bullets": [
+            "At the beginning: if non-empty, save old=head; head=head->next; free(old).",
+            "After predecessor p: save old=p->next; if old exists, p->next=old->next; free(old).",
+            "At the end: if empty do nothing; if one node free it and set head=NULL; otherwise find the penultimate node, free its next node, then set its next=NULL."
+          ],
+          "ordered": true
+        },
+        {
+          "title": "Example and cost",
+          "paragraphs": [],
+          "bullets": [
+            "10 → 20 → 30; insert 15 after 10 → 10 → 15 → 20 → 30. Remove 20 by linking 15 directly to 30 before freeing 20.",
+            "Beginning operations are O(1).",
+            "Given a predecessor, link changes are O(1); searching for a position or the end takes O(n) without extra pointers."
+          ],
+          "ordered": true
+        }
+      ],
+      "text": "Insert and remove linked-list nodes\nUnderstand the idea\nTo insert or remove a linked-list node, change the links that connect it to nearby nodes.\nHandle an empty list and the first node separately.\n\n\nRepresentation\nUse head for the first node and NULL for the end.\nThe examples use a singly linked list.\nAlways check allocation and empty-list cases.\n\n\nInsert a node\nAt the beginning: new->next=head; head=new.\nAfter a known node p: new->next=p->next; p->next=new.\nAt the end: set new->next=NULL; if empty, head=new; otherwise find the last node and set last->next=new.\n\n\nRemove a node\nAt the beginning: if non-empty, save old=head; head=head->next; free(old).\nAfter predecessor p: save old=p->next; if old exists, p->next=old->next; free(old).\nAt the end: if empty do nothing; if one node free it and set head=NULL; otherwise find the penultimate node, free its next node, then set its next=NULL.\n\n\nExample and cost\n10 → 20 → 30; insert 15 after 10 → 10 → 15 → 20 → 30. Remove 20 by linking 15 directly to 30 before freeing 20.\nBeginning operations are O(1).\nGiven a predecessor, link changes are O(1); searching for a position or the end takes O(n) without extra pointers.\n\n"
+    },
+    "doubly": {
+      "title": "Doubly linked list and applications",
+      "sections": [
+        {
+          "title": "Understand the idea",
+          "paragraphs": [],
+          "bullets": [
+            "A doubly linked list stores two links in each node: one to the previous node and one to the next.",
+            "This allows movement in both directions."
+          ],
+          "ordered": true
+        },
+        {
+          "title": "Node structure",
+          "paragraphs": [],
+          "bullets": [
+            "A node stores data, prev and next. head->prev=NULL and tail->next=NULL. Unlike a singly linked list, it can be traversed in both directions."
+          ],
+          "code": "NULL ← [10] ⇄ [20] ⇄ [30] → NULL",
+          "ordered": false
+        },
+        {
+          "title": "Link updates",
+          "paragraphs": [],
+          "bullets": [
+            "To insert new after p: new->prev=p; new->next=p->next; if p->next exists set p->next->prev=new; then p->next=new. Update tail if inserting after the old tail.",
+            "To delete known node x: reconnect x->prev to x->next and x->next to x->prev. Update head/tail at boundaries, then free(x)."
+          ],
+          "ordered": true
+        },
+        {
+          "title": "Compared with a singly linked list",
+          "paragraphs": [],
+          "bullets": [],
+          "table": {
+            "headers": [
+              "Feature",
+              "Singly",
+              "Doubly"
+            ],
+            "rows": [
+              [
+                "Traversal",
+                "Forward only",
+                "Forward and backward"
+              ],
+              [
+                "Delete known node",
+                "Usually need predecessor",
+                "Use prev and next: O(1)"
+              ],
+              [
+                "Memory",
+                "One link per node",
+                "Two links per node"
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Applications and limitation",
+          "paragraphs": [],
+          "bullets": [
+            "Browser back/forward navigation, undo/redo lists, music playlists and LRU cache ordering need movement or removal in both directions.",
+            "Extra pointer memory and more link updates are the cost.",
+            "Searching for a value still takes O(n)."
+          ],
+          "ordered": true
+        }
+      ],
+      "text": "Doubly linked list and applications\nUnderstand the idea\nA doubly linked list stores two links in each node: one to the previous node and one to the next.\nThis allows movement in both directions.\n\n\nNode structure\nA node stores data, prev and next. head->prev=NULL and tail->next=NULL. Unlike a singly linked list, it can be traversed in both directions.\nNULL ← [10] ⇄ [20] ⇄ [30] → NULL\n\nLink updates\nTo insert new after p: new->prev=p; new->next=p->next; if p->next exists set p->next->prev=new; then p->next=new. Update tail if inserting after the old tail.\nTo delete known node x: reconnect x->prev to x->next and x->next to x->prev. Update head/tail at boundaries, then free(x).\n\n\nCompared with a singly linked list\n\n{'headers': ['Feature', 'Singly', 'Doubly'], 'rows': [['Traversal', 'Forward only', 'Forward and backward'], ['Delete known node', 'Usually need predecessor', 'Use prev and next: O(1)'], ['Memory', 'One link per node', 'Two links per node']]}\nApplications and limitation\nBrowser back/forward navigation, undo/redo lists, music playlists and LRU cache ordering need movement or removal in both directions.\nExtra pointer memory and more link updates are the cost.\nSearching for a value still takes O(n).\n\n"
+    },
+    "types": {
+      "title": "Data structures and their types",
+      "sections": [
+        {
+          "title": "Understand the idea",
+          "paragraphs": [],
+          "bullets": [
+            "A data structure is a way to organize data so that it can be stored and used efficiently.",
+            "Choose it according to the operations you need."
+          ],
+          "ordered": true
+        },
+        {
+          "title": "Definition",
+          "paragraphs": [],
+          "bullets": [
+            "A data structure is a way of organising and storing data so that operations such as access, search, insertion and deletion can be performed efficiently."
+          ],
+          "ordered": false
+        },
+        {
+          "title": "Main classification",
+          "paragraphs": [],
+          "bullets": [],
+          "table": {
+            "headers": [
+              "Class",
+              "Meaning",
+              "Examples"
+            ],
+            "rows": [
+              [
+                "Primitive",
+                "Basic values provided by a language",
+                "int, char, float, pointer"
+              ],
+              [
+                "Non-primitive: linear",
+                "Elements form a sequence",
+                "Array, linked list, stack, queue"
+              ],
+              [
+                "Non-primitive: non-linear",
+                "Hierarchical or network relationships",
+                "Tree, graph"
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Other useful classifications",
+          "paragraphs": [],
+          "bullets": [
+            "Static capacity: an array has a fixed number of slots after allocation.",
+            "Dynamic size: a linked list can add or remove allocated nodes at runtime. A dynamic array can resize by reallocating.",
+            "Homogeneous: elements share one type, such as an integer array. Heterogeneous: a record/struct contains fields of different types."
+          ],
+          "ordered": true
+        },
+        {
+          "title": "Choosing a structure",
+          "paragraphs": [],
+          "bullets": [
+            "Use arrays for fast indexed access, stacks for LIFO, queues for FIFO, trees for hierarchies and graphs for networks.",
+            "The best choice depends on required operations, memory and time costs."
+          ],
+          "ordered": true
+        }
+      ],
+      "text": "Data structures and their types\nUnderstand the idea\nA data structure is a way to organize data so that it can be stored and used efficiently.\nChoose it according to the operations you need.\n\n\nDefinition\nA data structure is a way of organising and storing data so that operations such as access, search, insertion and deletion can be performed efficiently.\n\n\nMain classification\n\n{'headers': ['Class', 'Meaning', 'Examples'], 'rows': [['Primitive', 'Basic values provided by a language', 'int, char, float, pointer'], ['Non-primitive: linear', 'Elements form a sequence', 'Array, linked list, stack, queue'], ['Non-primitive: non-linear', 'Hierarchical or network relationships', 'Tree, graph']]}\nOther useful classifications\nStatic capacity: an array has a fixed number of slots after allocation.\nDynamic size: a linked list can add or remove allocated nodes at runtime. A dynamic array can resize by reallocating.\nHomogeneous: elements share one type, such as an integer array. Heterogeneous: a record/struct contains fields of different types.\n\n\nChoosing a structure\nUse arrays for fast indexed access, stacks for LIFO, queues for FIFO, trees for hierarchies and graphs for networks.\nThe best choice depends on required operations, memory and time costs.\n\n"
+    },
+    "binary": {
+      "title": "Binary and non-binary trees",
+      "sections": [
+        {
+          "title": "Understand the idea",
+          "paragraphs": [],
+          "bullets": [
+            "A tree organizes nodes in parent-child relationships. A binary tree allows at most two children per node; a general tree can allow more."
+          ],
+          "ordered": false
+        },
+        {
+          "title": "Comparison",
+          "paragraphs": [],
+          "bullets": []
+        },
+        {
+          "title": "Binary vs non-binary",
+          "paragraphs": [],
+          "bullets": [],
+          "table": {
+            "headers": [
+              "Property",
+              "Binary tree",
+              "Non-binary/general tree"
+            ],
+            "rows": [
+              [
+                "Children",
+                "At most two per node",
+                "May allow more than two"
+              ],
+              [
+                "Positions",
+                "Distinct left and right child",
+                "No universal left/right pair"
+              ],
+              [
+                "Examples",
+                "Expression tree, binary search tree",
+                "Directory hierarchy, multiway search tree"
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Example",
+          "paragraphs": [],
+          "bullets": [
+            "A has children B and C; B has D and E; C has right child F.",
+            "Every node has at most two children, so this is a binary tree.",
+            "It is not a strictly binary tree because C has only one child."
+          ],
+          "diagram": "traversal",
+          "ordered": true
+        },
+        {
+          "title": "Useful properties",
+          "paragraphs": [],
+          "bullets": [
+            "A non-empty tree with n nodes has n−1 edges.",
+            "With root at level 0, a binary tree has at most 2^l nodes at level l.",
+            "Binary does not mean sorted or balanced; those need additional rules."
+          ],
+          "ordered": true
+        }
+      ],
+      "text": "Binary and non-binary trees\nUnderstand the idea\nA tree organizes nodes in parent-child relationships. A binary tree allows at most two children per node; a general tree can allow more.\n\n\nComparison\n\n\nBinary vs non-binary\n\n{'headers': ['Property', 'Binary tree', 'Non-binary/general tree'], 'rows': [['Children', 'At most two per node', 'May allow more than two'], ['Positions', 'Distinct left and right child', 'No universal left/right pair'], ['Examples', 'Expression tree, binary search tree', 'Directory hierarchy, multiway search tree']]}\nExample\nA has children B and C; B has D and E; C has right child F.\nEvery node has at most two children, so this is a binary tree.\nIt is not a strictly binary tree because C has only one child.\n\n\nUseful properties\nA non-empty tree with n nodes has n−1 edges.\nWith root at level 0, a binary tree has at most 2^l nodes at level l.\nBinary does not mean sorted or balanced; those need additional rules.\n\n"
+    },
+    "strict": {
+      "title": "Binary, non-binary and strictly binary trees",
+      "sections": [
+        {
+          "title": "Understand the idea",
+          "paragraphs": [],
+          "bullets": [
+            "A strictly binary tree has either zero or two children at each node.",
+            "An ordinary binary tree also allows a node with just one child."
+          ],
+          "ordered": true
+        },
+        {
+          "title": "Comparison",
+          "paragraphs": [],
+          "bullets": []
+        },
+        {
+          "title": "Binary vs non-binary",
+          "paragraphs": [],
+          "bullets": [],
+          "table": {
+            "headers": [
+              "Property",
+              "Binary tree",
+              "Non-binary/general tree"
+            ],
+            "rows": [
+              [
+                "Children",
+                "At most two per node",
+                "May allow more than two"
+              ],
+              [
+                "Positions",
+                "Distinct left and right child",
+                "No universal left/right pair"
+              ],
+              [
+                "Examples",
+                "Expression tree, binary search tree",
+                "Directory hierarchy, multiway search tree"
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Strictly binary tree",
+          "paragraphs": [],
+          "bullets": [
+            "Every node has either zero or exactly two children.",
+            "It is also called a full/proper binary tree.",
+            "No node has only one child."
+          ],
+          "code": "       A\n      / \\\n     B   C\n        / \\\n       D   E",
+          "ordered": true
+        },
+        {
+          "title": "Characteristics",
+          "paragraphs": [],
+          "bullets": [
+            "If I is the number of internal nodes, leaves L=I+1 and total nodes N=2I+1. Each internal node contributes two edges, so 2I=N−1.",
+            "The example has I=2, L=3 and N=5. Strictness does not imply equal leaf depth, completeness or balance."
+          ],
+          "ordered": true
+        }
+      ],
+      "text": "Binary, non-binary and strictly binary trees\nUnderstand the idea\nA strictly binary tree has either zero or two children at each node.\nAn ordinary binary tree also allows a node with just one child.\n\n\nComparison\n\n\nBinary vs non-binary\n\n{'headers': ['Property', 'Binary tree', 'Non-binary/general tree'], 'rows': [['Children', 'At most two per node', 'May allow more than two'], ['Positions', 'Distinct left and right child', 'No universal left/right pair'], ['Examples', 'Expression tree, binary search tree', 'Directory hierarchy, multiway search tree']]}\nStrictly binary tree\nEvery node has either zero or exactly two children.\nIt is also called a full/proper binary tree.\nNo node has only one child.\n       A\n      / \\\n     B   C\n        / \\\n       D   E\n\nCharacteristics\nIf I is the number of internal nodes, leaves L=I+1 and total nodes N=2I+1. Each internal node contributes two edges, so 2I=N−1.\nThe example has I=2, L=3 and N=5. Strictness does not imply equal leaf depth, completeness or balance.\n\n"
+    },
+    "expressions": {
+      "title": "Expression trees: all four expressions",
+      "sections": [
+        {
+          "title": "Understand the idea",
+          "paragraphs": [],
+          "bullets": [
+            "An expression tree puts operators in internal nodes and values in leaf nodes.",
+            "Each operator combines the results of its child subtrees."
+          ],
+          "ordered": true
+        },
+        {
+          "title": "Construction rule",
+          "paragraphs": [],
+          "bullets": [
+            "An operator is an internal node and an operand is a leaf.",
+            "Use parentheses and precedence to find the outermost operation; make it the root.",
+            "Here $ is assumed to mean exponentiation, as suggested by the handwritten “power” note.",
+            "The paper does not formally define it."
+          ],
+          "ordered": true
+        },
+        {
+          "title": "2(a). A+B*C",
+          "paragraphs": [],
+          "bullets": [
+            "Root +; left A; right subtree B*C."
+          ],
+          "diagram": "expr-a",
+          "ordered": false
+        },
+        {
+          "title": "2(b). (A+B)*C",
+          "paragraphs": [],
+          "bullets": [
+            "Root *; left subtree A+B; right C."
+          ],
+          "diagram": "expr-b",
+          "ordered": false
+        },
+        {
+          "title": "2(c). A+(B-C)*D$(E*F)",
+          "paragraphs": [],
+          "bullets": [
+            "Root +; right subtree multiplies (B−C) by D raised to (E*F)."
+          ],
+          "diagram": "expr-c",
+          "ordered": false
+        },
+        {
+          "title": "2(d). (A+B*C)$((A+B)*C)",
+          "paragraphs": [],
+          "bullets": [
+            "Root $; left subtree A+B*C; right subtree (A+B)*C."
+          ],
+          "diagram": "expr-d",
+          "ordered": false
+        }
+      ],
+      "text": "Expression trees: all four expressions\nUnderstand the idea\nAn expression tree puts operators in internal nodes and values in leaf nodes.\nEach operator combines the results of its child subtrees.\n\n\nConstruction rule\nAn operator is an internal node and an operand is a leaf.\nUse parentheses and precedence to find the outermost operation; make it the root.\nHere $ is assumed to mean exponentiation, as suggested by the handwritten “power” note.\nThe paper does not formally define it.\n\n\n2(a). A+B*C\nRoot +; left A; right subtree B*C.\n\n\n2(b). (A+B)*C\nRoot *; left subtree A+B; right C.\n\n\n2(c). A+(B-C)*D$(E*F)\nRoot +; right subtree multiplies (B−C) by D raised to (E*F).\n\n\n2(d). (A+B*C)$((A+B)*C)\nRoot $; left subtree A+B*C; right subtree (A+B)*C.\n\n"
+    },
+    "btree": {
+      "title": "B-tree of order n",
+      "sections": [
+        {
+          "title": "Understand the idea",
+          "paragraphs": [],
+          "bullets": [
+            "A B-tree is a balanced search tree that stores several keys in one node.",
+            "Its leaves stay at the same level, helping searches remain short."
+          ],
+          "ordered": true
+        },
+        {
+          "title": "Definition and convention",
+          "paragraphs": [],
+          "bullets": [
+            "A B-tree is a balanced multiway search tree.",
+            "Here order n means at most n children and n−1 keys per node.",
+            "Some books instead use a minimum degree t; do not mix the two conventions."
+          ],
+          "ordered": true
+        },
+        {
+          "title": "Properties",
+          "paragraphs": [],
+          "bullets": [
+            "Keys within a node are sorted; child subtrees separate the key ranges.",
+            "A non-root node has at least ceil(n/2) children if internal, and at least ceil(n/2)−1 keys.",
+            "A non-empty root has at least one key. An internal root has at least two children.",
+            "All leaves are at the same depth."
+          ],
+          "ordered": true
+        },
+        {
+          "title": "Insertion",
+          "paragraphs": [],
+          "bullets": [
+            "Find the appropriate leaf and insert in sorted order.",
+            "If a node exceeds its allowed keys, split it and promote a separator to its parent; repeat upwards if needed.",
+            "Splitting the root increases the height.",
+            "The following order-4 example uses splitting full nodes before descent."
+          ],
+          "ordered": true
+        },
+        {
+          "title": "Order-4 example",
+          "paragraphs": [],
+          "bullets": [],
+          "table": {
+            "headers": [
+              "Insert",
+              "State / split"
+            ],
+            "rows": [
+              [
+                "10,20,5",
+                "Root [5,10,20] is full"
+              ],
+              [
+                "6",
+                "Split root; promote 10; leaves [5,6], [20]"
+              ],
+              [
+                "12,30,7",
+                "Root [10]; leaves [5,6,7], [12,20,30]"
+              ],
+              [
+                "17",
+                "Split right child; promote 20; insert 17 into [12]"
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Final tree and use",
+          "paragraphs": [],
+          "bullets": [
+            "Root [10,20] routes values <10 to the left, between 10 and 20 to the middle, and >20 to the right.",
+            "Search and insertion need O(log m) levels for m stored keys.",
+            "B-trees reduce disk accesses in database and file indexes."
+          ],
+          "diagram": "btree",
+          "ordered": true
+        }
+      ],
+      "text": "B-tree of order n\nUnderstand the idea\nA B-tree is a balanced search tree that stores several keys in one node.\nIts leaves stay at the same level, helping searches remain short.\n\n\nDefinition and convention\nA B-tree is a balanced multiway search tree.\nHere order n means at most n children and n−1 keys per node.\nSome books instead use a minimum degree t; do not mix the two conventions.\n\n\nProperties\nKeys within a node are sorted; child subtrees separate the key ranges.\nA non-root node has at least ceil(n/2) children if internal, and at least ceil(n/2)−1 keys.\nA non-empty root has at least one key. An internal root has at least two children.\nAll leaves are at the same depth.\n\n\nInsertion\nFind the appropriate leaf and insert in sorted order.\nIf a node exceeds its allowed keys, split it and promote a separator to its parent; repeat upwards if needed.\nSplitting the root increases the height.\nThe following order-4 example uses splitting full nodes before descent.\n\n\nOrder-4 example\n\n{'headers': ['Insert', 'State / split'], 'rows': [['10,20,5', 'Root [5,10,20] is full'], ['6', 'Split root; promote 10; leaves [5,6], [20]'], ['12,30,7', 'Root [10]; leaves [5,6,7], [12,20,30]'], ['17', 'Split right child; promote 20; insert 17 into [12]']]}\nFinal tree and use\nRoot [10,20] routes values <10 to the left, between 10 and 20 to the middle, and >20 to the right.\nSearch and insertion need O(log m) levels for m stored keys.\nB-trees reduce disk accesses in database and file indexes.\n\n"
+    },
+    "graphs": {
+      "title": "Graph and types of graphs",
+      "sections": [
+        {
+          "title": "Understand the idea",
+          "paragraphs": [],
+          "bullets": [
+            "A graph represents objects as vertices and connections as edges.",
+            "Roads between cities are a simple example."
+          ],
+          "ordered": true
+        },
+        {
+          "title": "Definition",
+          "paragraphs": [],
+          "bullets": [
+            "A graph G=(V,E) consists of vertices V and edges E connecting pairs of vertices. Unlike a tree, it may contain cycles and disconnected components."
+          ],
+          "diagram": "graph",
+          "ordered": false
+        },
+        {
+          "title": "Main types",
+          "paragraphs": [],
+          "bullets": [],
+          "table": {
+            "headers": [
+              "Type",
+              "Meaning / example"
+            ],
+            "rows": [
+              [
+                "Undirected / directed",
+                "Two-way connection / ordered one-way edge"
+              ],
+              [
+                "Unweighted / weighted",
+                "Edges have no cost / edges carry distance or cost"
+              ],
+              [
+                "Connected / disconnected",
+                "All pairs reachable / separate components (undirected)"
+              ],
+              [
+                "Cyclic / acyclic",
+                "Contains a cycle / has no cycle"
+              ],
+              [
+                "Simple / multigraph",
+                "No loops or parallel edges / parallel edges allowed"
+              ],
+              [
+                "Complete",
+                "Every pair of distinct vertices is adjacent (undirected)"
+              ],
+              [
+                "Bipartite",
+                "Vertices split into two sets; edges go between sets"
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Applications",
+          "paragraphs": [],
+          "bullets": [
+            "Road networks, social connections, dependency scheduling and communication networks are modelled as graphs.",
+            "In a directed graph, distinguish strong connectivity from weak connectivity when discussing reachability."
+          ],
+          "ordered": true
+        }
+      ],
+      "text": "Graph and types of graphs\nUnderstand the idea\nA graph represents objects as vertices and connections as edges.\nRoads between cities are a simple example.\n\n\nDefinition\nA graph G=(V,E) consists of vertices V and edges E connecting pairs of vertices. Unlike a tree, it may contain cycles and disconnected components.\n\n\nMain types\n\n{'headers': ['Type', 'Meaning / example'], 'rows': [['Undirected / directed', 'Two-way connection / ordered one-way edge'], ['Unweighted / weighted', 'Edges have no cost / edges carry distance or cost'], ['Connected / disconnected', 'All pairs reachable / separate components (undirected)'], ['Cyclic / acyclic', 'Contains a cycle / has no cycle'], ['Simple / multigraph', 'No loops or parallel edges / parallel edges allowed'], ['Complete', 'Every pair of distinct vertices is adjacent (undirected)'], ['Bipartite', 'Vertices split into two sets; edges go between sets']]}\nApplications\nRoad networks, social connections, dependency scheduling and communication networks are modelled as graphs.\nIn a directed graph, distinguish strong connectivity from weak connectivity when discussing reachability.\n\n"
+    },
+    "matrix": {
+      "title": "Adjacency matrix: forms and applications",
+      "sections": [
+        {
+          "title": "Understand the idea",
+          "paragraphs": [],
+          "bullets": [
+            "An adjacency matrix is a table showing which graph vertices are connected.",
+            "Row i and column j record the connection from vertex i to vertex j."
+          ],
+          "ordered": true
+        },
+        {
+          "title": "Representation",
+          "paragraphs": [],
+          "bullets": [
+            "For n vertices, an adjacency matrix is an n×n table.",
+            "Row i and column j describe the edge from i to j.",
+            "Fix the vertex order before filling it."
+          ],
+          "diagram": "graph",
+          "ordered": true
+        },
+        {
+          "title": "Undirected, unweighted example",
+          "paragraphs": [],
+          "bullets": [],
+          "table": {
+            "headers": [
+              "",
+              "A",
+              "B",
+              "C",
+              "D"
+            ],
+            "rows": [
+              [
+                "A",
+                "0",
+                "1",
+                "1",
+                "0"
+              ],
+              [
+                "B",
+                "1",
+                "0",
+                "0",
+                "1"
+              ],
+              [
+                "C",
+                "1",
+                "0",
+                "0",
+                "1"
+              ],
+              [
+                "D",
+                "0",
+                "1",
+                "1",
+                "0"
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Other forms",
+          "paragraphs": [],
+          "bullets": [
+            "Directed, unweighted: A[i][j]=1 only when i→j exists. The matrix need not be symmetric.",
+            "Undirected: A[i][j]=A[j][i], so the matrix is symmetric.",
+            "Weighted: store the edge weight. Represent a missing edge by a separate flag or ∞, since 0 can be a valid weight. For shortest-path initialization, set the diagonal to 0.",
+            "A diagonal entry may represent a self-loop in an adjacency matrix. For a simple unweighted graph it is 0."
+          ],
+          "ordered": true
+        },
+        {
+          "title": "Costs and applications",
+          "paragraphs": [],
+          "bullets": [
+            "Space O(n²); test an edge in O(1); list all neighbours of one vertex in O(n).",
+            "It suits dense graphs, small fixed networks and matrix-based algorithms such as Floyd–Warshall.",
+            "Sparse graphs usually use adjacency lists to save space."
+          ],
+          "ordered": true
+        }
+      ],
+      "text": "Adjacency matrix: forms and applications\nUnderstand the idea\nAn adjacency matrix is a table showing which graph vertices are connected.\nRow i and column j record the connection from vertex i to vertex j.\n\n\nRepresentation\nFor n vertices, an adjacency matrix is an n×n table.\nRow i and column j describe the edge from i to j.\nFix the vertex order before filling it.\n\n\nUndirected, unweighted example\n\n{'headers': ['', 'A', 'B', 'C', 'D'], 'rows': [['A', '0', '1', '1', '0'], ['B', '1', '0', '0', '1'], ['C', '1', '0', '0', '1'], ['D', '0', '1', '1', '0']]}\nOther forms\nDirected, unweighted: A[i][j]=1 only when i→j exists. The matrix need not be symmetric.\nUndirected: A[i][j]=A[j][i], so the matrix is symmetric.\nWeighted: store the edge weight. Represent a missing edge by a separate flag or ∞, since 0 can be a valid weight. For shortest-path initialization, set the diagonal to 0.\nA diagonal entry may represent a self-loop in an adjacency matrix. For a simple unweighted graph it is 0.\n\n\nCosts and applications\nSpace O(n²); test an edge in O(1); list all neighbours of one vertex in O(n).\nIt suits dense graphs, small fixed networks and matrix-based algorithms such as Floyd–Warshall.\nSparse graphs usually use adjacency lists to save space.\n\n"
+    },
+    "traversals": {
+      "title": "Binary-tree traversal methods",
+      "sections": [
+        {
+          "title": "Understand the idea",
+          "paragraphs": [],
+          "bullets": [
+            "Tree traversal means visiting every node in a chosen order.",
+            "Preorder, inorder and postorder differ in when they visit the root."
+          ],
+          "ordered": true
+        },
+        {
+          "title": "Meaning",
+          "paragraphs": [],
+          "bullets": [
+            "Traversal visits each node systematically.",
+            "Use the same tree for all four orders below."
+          ],
+          "diagram": "traversal",
+          "ordered": true
+        },
+        {
+          "title": "Orders and outputs",
+          "paragraphs": [],
+          "bullets": [],
+          "table": {
+            "headers": [
+              "Method",
+              "Rule",
+              "Output"
+            ],
+            "rows": [
+              [
+                "Preorder",
+                "Root, left, right",
+                "A B D E C F"
+              ],
+              [
+                "Inorder",
+                "Left, root, right",
+                "D B E A C F"
+              ],
+              [
+                "Postorder",
+                "Left, right, root",
+                "D E B F C A"
+              ],
+              [
+                "Level order",
+                "Breadth first, using a queue",
+                "A B C D E F"
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Recursive pattern",
+          "paragraphs": [],
+          "bullets": [],
+          "code": "TRAVERSE(node):\n  if node == NULL: return\n  visit(node)       // put here for preorder\n  TRAVERSE(node.left)\n  visit(node)       // OR here for inorder\n  TRAVERSE(node.right)\n  visit(node)       // OR here for postorder\n// Use only ONE of the three visit positions."
+        },
+        {
+          "title": "Cost and uses",
+          "paragraphs": [],
+          "bullets": [
+            "Each traversal takes O(n).",
+            "Recursive traversals use O(h) stack space for height h; level order needs a queue up to the tree width.",
+            "Preorder copies a tree, inorder lists BST keys in sorted order, and postorder deletes a tree or evaluates an expression tree."
+          ],
+          "ordered": true
+        }
+      ],
+      "text": "Binary-tree traversal methods\nUnderstand the idea\nTree traversal means visiting every node in a chosen order.\nPreorder, inorder and postorder differ in when they visit the root.\n\n\nMeaning\nTraversal visits each node systematically.\nUse the same tree for all four orders below.\n\n\nOrders and outputs\n\n{'headers': ['Method', 'Rule', 'Output'], 'rows': [['Preorder', 'Root, left, right', 'A B D E C F'], ['Inorder', 'Left, root, right', 'D B E A C F'], ['Postorder', 'Left, right, root', 'D E B F C A'], ['Level order', 'Breadth first, using a queue', 'A B C D E F']]}\nRecursive pattern\nTRAVERSE(node):\n  if node == NULL: return\n  visit(node)       // put here for preorder\n  TRAVERSE(node.left)\n  visit(node)       // OR here for inorder\n  TRAVERSE(node.right)\n  visit(node)       // OR here for postorder\n// Use only ONE of the three visit positions.\n\nCost and uses\nEach traversal takes O(n).\nRecursive traversals use O(h) stack space for height h; level order needs a queue up to the tree width.\nPreorder copies a tree, inorder lists BST keys in sorted order, and postorder deletes a tree or evaluates an expression tree.\n\n"
+    },
+    "tree-ops": {
+      "title": "Binary-tree operations and applications",
+      "sections": [
+        {
+          "title": "Understand the idea",
+          "paragraphs": [],
+          "bullets": [
+            "Tree operations include adding, searching for and removing nodes.",
+            "The exact method depends on the type of tree."
+          ],
+          "ordered": true
+        },
+        {
+          "title": "Basic operations",
+          "paragraphs": [],
+          "bullets": [
+            "Create nodes with data, left and right pointers; initialise missing children to NULL.",
+            "Traverse using preorder, inorder, postorder or level order.",
+            "Search a general binary tree by traversal: O(n) in the worst case.",
+            "Insert or delete according to the tree’s purpose; an arbitrary binary tree has no automatic ordering rule."
+          ],
+          "ordered": true
+        },
+        {
+          "title": "If the tree is a binary search tree",
+          "paragraphs": [],
+          "bullets": [
+            "For distinct keys, left subtree keys are smaller and right subtree keys are larger.",
+            "Insert by following comparisons to a vacant child.",
+            "Delete a leaf directly; replace a one-child node by its child; for two children, replace its key by its inorder successor and delete that successor.",
+            "These operations take O(h), where h is height: O(log n) when balanced, O(n) in a skewed tree.",
+            "These rules apply to a BST, not every binary tree."
+          ],
+          "ordered": true
+        },
+        {
+          "title": "Applications",
+          "paragraphs": [],
+          "bullets": [
+            "Expression trees organise operators and operands; binary search trees support ordered dictionaries; binary heaps implement priority queues; decision trees represent yes/no choices."
+          ],
+          "diagram": "traversal",
+          "ordered": false
+        }
+      ],
+      "text": "Binary-tree operations and applications\nUnderstand the idea\nTree operations include adding, searching for and removing nodes.\nThe exact method depends on the type of tree.\n\n\nBasic operations\nCreate nodes with data, left and right pointers; initialise missing children to NULL.\nTraverse using preorder, inorder, postorder or level order.\nSearch a general binary tree by traversal: O(n) in the worst case.\nInsert or delete according to the tree’s purpose; an arbitrary binary tree has no automatic ordering rule.\n\n\nIf the tree is a binary search tree\nFor distinct keys, left subtree keys are smaller and right subtree keys are larger.\nInsert by following comparisons to a vacant child.\nDelete a leaf directly; replace a one-child node by its child; for two children, replace its key by its inorder successor and delete that successor.\nThese operations take O(h), where h is height: O(log n) when balanced, O(n) in a skewed tree.\nThese rules apply to a BST, not every binary tree.\n\n\nApplications\nExpression trees organise operators and operands; binary search trees support ordered dictionaries; binary heaps implement priority queues; decision trees represent yes/no choices.\n\n"
+    },
+    "graph-complex": {
+      "title": "Graphs and three traversal difficulties",
+      "sections": [
+        {
+          "title": "Understand the idea",
+          "paragraphs": [],
+          "bullets": [
+            "Graph traversal visits vertices through their edges.",
+            "Unlike a tree, a graph may contain cycles, several paths to one vertex or separate components."
+          ],
+          "ordered": true
+        },
+        {
+          "title": "Graph",
+          "paragraphs": [],
+          "bullets": [
+            "G=(V,E) has a set of vertices and edges. The illustrated graph has four vertices and four undirected edges."
+          ],
+          "diagram": "graph",
+          "ordered": false
+        },
+        {
+          "title": "Three reasons traversal is more involved",
+          "paragraphs": [],
+          "bullets": [
+            "Cycles: following links can return to an already visited vertex and loop forever without a visited set.",
+            "Multiple paths: the same vertex may be reached through different neighbours; mark it visited before exploring further to avoid duplicate processing.",
+            "Disconnected components and no natural root: one starting vertex may not reach the whole graph. Choose a start and run traversal again from each remaining unvisited vertex."
+          ],
+          "ordered": true
+        },
+        {
+          "title": "How to handle this",
+          "paragraphs": [],
+          "bullets": [
+            "DFS uses recursion/a stack; BFS uses a queue.",
+            "Both maintain visited flags. A tree has a unique path between vertices and a rooted tree offers a natural start; a simple linked list follows one next link at each step."
+          ],
+          "ordered": true
+        }
+      ],
+      "text": "Graphs and three traversal difficulties\nUnderstand the idea\nGraph traversal visits vertices through their edges.\nUnlike a tree, a graph may contain cycles, several paths to one vertex or separate components.\n\n\nGraph\nG=(V,E) has a set of vertices and edges. The illustrated graph has four vertices and four undirected edges.\n\n\nThree reasons traversal is more involved\nCycles: following links can return to an already visited vertex and loop forever without a visited set.\nMultiple paths: the same vertex may be reached through different neighbours; mark it visited before exploring further to avoid duplicate processing.\nDisconnected components and no natural root: one starting vertex may not reach the whole graph. Choose a start and run traversal again from each remaining unvisited vertex.\n\n\nHow to handle this\nDFS uses recursion/a stack; BFS uses a queue.\nBoth maintain visited flags. A tree has a unique path between vertices and a rooted tree offers a natural start; a simple linked list follows one next link at each step.\n\n"
+    },
+    "dfs": {
+      "title": "Depth-first traversal",
+      "sections": [
+        {
+          "title": "Understand the idea",
+          "paragraphs": [],
+          "bullets": [
+            "Depth-first search (DFS) follows one path as far as possible, then returns to try another path.",
+            "Mark visited vertices to avoid repeating them."
+          ],
+          "ordered": true
+        },
+        {
+          "title": "Idea",
+          "paragraphs": [],
+          "bullets": [
+            "DFS explores one path as deeply as possible, then backtracks to the most recent vertex with an unvisited neighbour.",
+            "Use recursion or an explicit stack."
+          ],
+          "ordered": true
+        },
+        {
+          "title": "Algorithm",
+          "paragraphs": [],
+          "bullets": [],
+          "code": "DFS(v):\n  visited[v] = true\n  output v\n  for each neighbour u of v:\n    if not visited[u]: DFS(u)\n\nfor each vertex v:\n  if not visited[v]: DFS(v)"
+        },
+        {
+          "title": "Worked example",
+          "paragraphs": [],
+          "bullets": [
+            "For the pictured graph, start at A and choose neighbours alphabetically. Visit A → B → D → C. At C, A and D are already visited; backtrack until finished. Another neighbour order can produce a different valid DFS order."
+          ],
+          "diagram": "graph",
+          "ordered": false
+        },
+        {
+          "title": "Cost and applications",
+          "paragraphs": [],
+          "bullets": [
+            "With adjacency lists: O(V+E) time and O(V) extra memory.",
+            "With a matrix: O(V²) time.",
+            "Applications include connected components, path existence, cycle detection and topological sorting of a DAG.",
+            "Cycle detection needs parent tracking for undirected graphs or active-recursion states for directed graphs."
+          ],
+          "ordered": true
+        }
+      ],
+      "text": "Depth-first traversal\nUnderstand the idea\nDepth-first search (DFS) follows one path as far as possible, then returns to try another path.\nMark visited vertices to avoid repeating them.\n\n\nIdea\nDFS explores one path as deeply as possible, then backtracks to the most recent vertex with an unvisited neighbour.\nUse recursion or an explicit stack.\n\n\nAlgorithm\nDFS(v):\n  visited[v] = true\n  output v\n  for each neighbour u of v:\n    if not visited[u]: DFS(u)\n\nfor each vertex v:\n  if not visited[v]: DFS(v)\n\nWorked example\nFor the pictured graph, start at A and choose neighbours alphabetically. Visit A → B → D → C. At C, A and D are already visited; backtrack until finished. Another neighbour order can produce a different valid DFS order.\n\n\nCost and applications\nWith adjacency lists: O(V+E) time and O(V) extra memory.\nWith a matrix: O(V²) time.\nApplications include connected components, path existence, cycle detection and topological sorting of a DAG.\nCycle detection needs parent tracking for undirected graphs or active-recursion states for directed graphs.\n\n"
+    },
+    "circular": {
+      "title": "Circular linked list",
+      "sections": [
+        {
+          "title": "Understand the idea",
+          "paragraphs": [],
+          "bullets": [
+            "A circular linked list has no null link at its end: the last node points back to the first.",
+            "Stop a traversal when you return to the starting node."
+          ],
+          "ordered": true
+        },
+        {
+          "title": "Structure",
+          "paragraphs": [],
+          "bullets": [
+            "A circular linked list links its last node back to the first.",
+            "An empty list can be represented by NULL; a one-node list points to itself."
+          ],
+          "diagram": "circular",
+          "ordered": true
+        },
+        {
+          "title": "Traversal",
+          "paragraphs": [],
+          "bullets": [],
+          "code": "if (head != NULL) {\n    Node *p = head;\n    do {\n        printf(\"%d \", p->data);\n        p = p->next;\n    } while (p != head);\n}"
+        },
+        {
+          "title": "Example and operations",
+          "paragraphs": [],
+          "bullets": [
+            "10 → 20 → 30 → 10 repeats in a circle. Stop after returning to head, not at NULL.",
+            "With a tail pointer, head=tail->next. To append a new node: new->next=tail->next; tail->next=new; tail=new. For an empty list, set new->next=new and tail=new."
+          ],
+          "ordered": true
+        },
+        {
+          "title": "Uses and cost",
+          "paragraphs": [],
+          "bullets": [
+            "Round-robin scheduling and circular queues repeatedly cycle through items.",
+            "Traversal takes O(n); insertion after a known node takes O(1).",
+            "Broken links or an incorrect stopping condition can cause an infinite loop."
+          ],
+          "ordered": true
+        }
+      ],
+      "text": "Circular linked list\nUnderstand the idea\nA circular linked list has no null link at its end: the last node points back to the first.\nStop a traversal when you return to the starting node.\n\n\nStructure\nA circular linked list links its last node back to the first.\nAn empty list can be represented by NULL; a one-node list points to itself.\n\n\nTraversal\nif (head != NULL) {\n    Node *p = head;\n    do {\n        printf(\"%d \", p->data);\n        p = p->next;\n    } while (p != head);\n}\n\nExample and operations\n10 → 20 → 30 → 10 repeats in a circle. Stop after returning to head, not at NULL.\nWith a tail pointer, head=tail->next. To append a new node: new->next=tail->next; tail->next=new; tail=new. For an empty list, set new->next=new and tail=new.\n\n\nUses and cost\nRound-robin scheduling and circular queues repeatedly cycle through items.\nTraversal takes O(n); insertion after a known node takes O(1).\nBroken links or an incorrect stopping condition can cause an infinite loop.\n\n"
+    },
+    "end-edit": {
+      "title": "Insertion and deletion at the end",
+      "sections": [
+        {
+          "title": "Understand the idea",
+          "paragraphs": [],
+          "bullets": [
+            "To add at the end, connect the last node to the new node.",
+            "To delete the last node, find its predecessor and change that predecessor’s link."
+          ],
+          "ordered": true
+        },
+        {
+          "title": "Assumption",
+          "paragraphs": [],
+          "bullets": [
+            "A singly linked list has head and no stored tail pointer.",
+            "Handle an empty list and a one-node list separately."
+          ],
+          "ordered": true
+        },
+        {
+          "title": "Insert at end",
+          "paragraphs": [],
+          "bullets": [],
+          "code": "INSERT_END(head, x):\n  new = allocate node; if failed: return head\n  new.data = x; new.next = NULL\n  if head == NULL: return new\n  p = head\n  while p.next != NULL: p = p.next\n  p.next = new\n  return head"
+        },
+        {
+          "title": "Delete at end",
+          "paragraphs": [],
+          "bullets": [],
+          "code": "DELETE_END(head):\n  if head == NULL: return NULL\n  if head.next == NULL:\n    free(head); return NULL\n  p = head\n  while p.next.next != NULL: p = p.next\n  free(p.next); p.next = NULL\n  return head"
+        },
+        {
+          "title": "Example and complexity",
+          "paragraphs": [],
+          "bullets": [
+            "Insert 40 into 10 → 20 → 30 to find 10 → 20 → 30 → 40; deleting the end restores 10 → 20 → 30. Both operations take O(n) with head only and O(1) extra space. A tail pointer speeds insertion, but deleting the tail still needs its predecessor in a singly linked list."
+          ],
+          "diagram": "list",
+          "ordered": false
+        }
+      ],
+      "text": "Insertion and deletion at the end\nUnderstand the idea\nTo add at the end, connect the last node to the new node.\nTo delete the last node, find its predecessor and change that predecessor’s link.\n\n\nAssumption\nA singly linked list has head and no stored tail pointer.\nHandle an empty list and a one-node list separately.\n\n\nInsert at end\nINSERT_END(head, x):\n  new = allocate node; if failed: return head\n  new.data = x; new.next = NULL\n  if head == NULL: return new\n  p = head\n  while p.next != NULL: p = p.next\n  p.next = new\n  return head\n\nDelete at end\nDELETE_END(head):\n  if head == NULL: return NULL\n  if head.next == NULL:\n    free(head); return NULL\n  p = head\n  while p.next.next != NULL: p = p.next\n  free(p.next); p.next = NULL\n  return head\n\nExample and complexity\nInsert 40 into 10 → 20 → 30 to find 10 → 20 → 30 → 40; deleting the end restores 10 → 20 → 30. Both operations take O(n) with head only and O(1) extra space. A tail pointer speeds insertion, but deleting the tail still needs its predecessor in a singly linked list.\n\n"
+    },
+    "queue-adt": {
+      "title": "Queue ADT and implementation",
+      "sections": [
+        {
+          "title": "Understand the idea",
+          "paragraphs": [],
+          "bullets": [
+            "A queue ADT describes what a queue does, without fixing how it is stored.",
+            "Its main operations are enqueue, dequeue and checking whether it is empty."
+          ],
+          "ordered": true
+        },
+        {
+          "title": "Interface",
+          "paragraphs": [],
+          "bullets": [
+            "A queue is FIFO.",
+            "Its operations are create, enqueue, dequeue, front/peek and isEmpty; a bounded implementation also offers isFull.",
+            "Enqueue adds at the rear and dequeue removes the oldest item."
+          ],
+          "ordered": true
+        },
+        {
+          "title": "Circular-array implementation",
+          "paragraphs": [],
+          "bullets": [],
+          "code": "State: Q[N], front=0, rear=0, count=0; N>0\nENQUEUE(x):\n  if count == N: report overflow; return\n  Q[rear] = x\n  rear = (rear+1) mod N\n  count = count+1\nDEQUEUE():\n  if count == 0: report underflow\n  else:\n    x = Q[front]\n    front = (front+1) mod N\n    count = count-1\n    return x\nPEEK(): require count>0; return Q[front]"
+        },
+        {
+          "title": "Example",
+          "paragraphs": [],
+          "bullets": [
+            "For N=3, enqueue 10,20,30: count=3. Dequeue returns 10; enqueue 40 reuses index 0. Logical order is 20,30,40. The count distinguishes empty from full even when front==rear."
+          ],
+          "diagram": "queue",
+          "ordered": false
+        },
+        {
+          "title": "Cost and applications",
+          "paragraphs": [],
+          "bullets": [
+            "Enqueue/dequeue/peek take O(1), storage O(N).",
+            "The circular layout avoids wasted freed positions.",
+            "Uses include printer jobs, buffers and BFS."
+          ],
+          "ordered": true
+        }
+      ],
+      "text": "Queue ADT and implementation\nUnderstand the idea\nA queue ADT describes what a queue does, without fixing how it is stored.\nIts main operations are enqueue, dequeue and checking whether it is empty.\n\n\nInterface\nA queue is FIFO.\nIts operations are create, enqueue, dequeue, front/peek and isEmpty; a bounded implementation also offers isFull.\nEnqueue adds at the rear and dequeue removes the oldest item.\n\n\nCircular-array implementation\nState: Q[N], front=0, rear=0, count=0; N>0\nENQUEUE(x):\n  if count == N: report overflow; return\n  Q[rear] = x\n  rear = (rear+1) mod N\n  count = count+1\nDEQUEUE():\n  if count == 0: report underflow\n  else:\n    x = Q[front]\n    front = (front+1) mod N\n    count = count-1\n    return x\nPEEK(): require count>0; return Q[front]\n\nExample\nFor N=3, enqueue 10,20,30: count=3. Dequeue returns 10; enqueue 40 reuses index 0. Logical order is 20,30,40. The count distinguishes empty from full even when front==rear.\n\n\nCost and applications\nEnqueue/dequeue/peek take O(1), storage O(N).\nThe circular layout avoids wasted freed positions.\nUses include printer jobs, buffers and BFS.\n\n"
+    },
+    "mcq": {
+      "title": "Linked-list MCQs with reasons",
+      "sections": [
+        {
+          "title": "Understand the idea",
+          "paragraphs": [],
+          "bullets": [
+            "Choose the option that matches how links work.",
+            "Use the explanation to understand why that option is correct."
+          ],
+          "ordered": true
+        },
+        {
+          "title": "Recursive output: option B",
+          "paragraphs": [],
+          "bullets": [
+            "All nodes print in reverse order. The recursive call runs before printf. For 10 → 20 → 30, calls reach NULL first, then return and print 30 20 10. Links do not change."
+          ],
+          "ordered": false
+        },
+        {
+          "title": "Reverse-list statement: option A, conditionally",
+          "paragraphs": [],
+          "bullets": [
+            "*head_ref = prev; is the expected answer for the standard iterative reversal below. The scan does not supply the surrounding function/loop, so the option cannot be verified independently of that assumption."
+          ],
+          "code": "/* Standard reconstruction, not printed in full. */\nprev = NULL; current = *head_ref;\nwhile (current != NULL) {\n    next = current->next;\n    current->next = prev;\n    prev = current;\n    current = next;\n}\n*head_ref = prev;",
+          "ordered": false
+        },
+        {
+          "title": "Linked list vs array: expected option E",
+          "paragraphs": [],
+          "bullets": [
+            "All of the above under the usual fixed-array/singly-linked-list comparison.",
+            "Arrays have good cache locality because elements are next to one another.",
+            "Linked-list insertion/deletion needs only link updates when the relevant node/predecessor is known; searching still costs time.",
+            "A typical linked list does not support O(1) random indexed access.",
+            "A fixed array has a chosen capacity, while a linked list can allocate/free nodes as needed. Dynamic arrays also exist, and allocation can fail."
+          ],
+          "ordered": true
+        },
+        {
+          "title": "Marks",
+          "paragraphs": [],
+          "bullets": [
+            "The three MCQs share 6 marks as one source question.",
+            "No per-part mark allocation is printed."
+          ],
+          "ordered": true
+        }
+      ],
+      "text": "Linked-list MCQs with reasons\nUnderstand the idea\nChoose the option that matches how links work.\nUse the explanation to understand why that option is correct.\n\n\nRecursive output: option B\nAll nodes print in reverse order. The recursive call runs before printf. For 10 → 20 → 30, calls reach NULL first, then return and print 30 20 10. Links do not change.\n\n\nReverse-list statement: option A, conditionally\n*head_ref = prev; is the expected answer for the standard iterative reversal below. The scan does not supply the surrounding function/loop, so the option cannot be verified independently of that assumption.\n/* Standard reconstruction, not printed in full. */\nprev = NULL; current = *head_ref;\nwhile (current != NULL) {\n    next = current->next;\n    current->next = prev;\n    prev = current;\n    current = next;\n}\n*head_ref = prev;\n\nLinked list vs array: expected option E\nAll of the above under the usual fixed-array/singly-linked-list comparison.\nArrays have good cache locality because elements are next to one another.\nLinked-list insertion/deletion needs only link updates when the relevant node/predecessor is known; searching still costs time.\nA typical linked list does not support O(1) random indexed access.\nA fixed array has a chosen capacity, while a linked list can allocate/free nodes as needed. Dynamic arrays also exist, and allocation can fail.\n\n\nMarks\nThe three MCQs share 6 marks as one source question.\nNo per-part mark allocation is printed.\n\n"
+    },
+    "merge": {
+      "title": "Merge sort",
+      "sections": [
+        {
+          "title": "Understand the idea",
+          "paragraphs": [],
+          "bullets": [
+            "Merge sort splits a list into smaller parts, sorts those parts and combines them in order.",
+            "The combining step is called merging."
+          ],
+          "ordered": true
+        },
+        {
+          "title": "Principle",
+          "paragraphs": [],
+          "bullets": [
+            "Divide the array into halves, sort each half recursively, then merge the two sorted halves.",
+            "Stop when a subarray has at most one element."
+          ],
+          "ordered": true
+        },
+        {
+          "title": "Algorithm",
+          "paragraphs": [],
+          "bullets": [],
+          "code": "MERGESORT(A):\n  if length(A) <= 1: return A\n  mid = floor(length(A)/2)\n  L = MERGESORT(A[0:mid])\n  R = MERGESORT(A[mid:])\n  result = empty; i = j = 0\n  while i < length(L) and j < length(R):\n    if L[i] <= R[j]: append L[i] to result; i = i+1\n    else: append R[j] to result; j = j+1\n  append remaining L and remaining R\n  return result"
+        },
+        {
+          "title": "Worked example",
+          "paragraphs": [],
+          "bullets": [],
+          "code": "[38,27,43,3,9,82,10]\n        split\n[38,27,43]       [3,9,82,10]\n[38] [27,43]     [3,9] [82,10]\n        sort and merge\n[27,38,43]       [3,9,10,82]\n        merge both halves\n[3,9,10,27,38,43,82]"
+        },
+        {
+          "title": "Complexity and properties",
+          "paragraphs": [],
+          "bullets": [
+            "At each level, merging processes n elements; there are O(log n) levels.",
+            "Time is O(n log n) in best, average and worst cases.",
+            "Standard array merge sort needs O(n) auxiliary storage plus O(log n) recursion stack.",
+            "It is stable when equal values are taken from the left half first."
+          ],
+          "ordered": true
+        }
+      ],
+      "text": "Merge sort\nUnderstand the idea\nMerge sort splits a list into smaller parts, sorts those parts and combines them in order.\nThe combining step is called merging.\n\n\nPrinciple\nDivide the array into halves, sort each half recursively, then merge the two sorted halves.\nStop when a subarray has at most one element.\n\n\nAlgorithm\nMERGESORT(A):\n  if length(A) <= 1: return A\n  mid = floor(length(A)/2)\n  L = MERGESORT(A[0:mid])\n  R = MERGESORT(A[mid:])\n  result = empty; i = j = 0\n  while i < length(L) and j < length(R):\n    if L[i] <= R[j]: append L[i] to result; i = i+1\n    else: append R[j] to result; j = j+1\n  append remaining L and remaining R\n  return result\n\nWorked example\n[38,27,43,3,9,82,10]\n        split\n[38,27,43]       [3,9,82,10]\n[38] [27,43]     [3,9] [82,10]\n        sort and merge\n[27,38,43]       [3,9,10,82]\n        merge both halves\n[3,9,10,27,38,43,82]\n\nComplexity and properties\nAt each level, merging processes n elements; there are O(log n) levels.\nTime is O(n log n) in best, average and worst cases.\nStandard array merge sort needs O(n) auxiliary storage plus O(log n) recursion stack.\nIt is stable when equal values are taken from the left half first.\n\n"
+    },
+    "search": {
+      "title": "Searching techniques and binary search",
+      "sections": [
+        {
+          "title": "Understand the idea",
+          "paragraphs": [],
+          "bullets": [
+            "Searching finds a required value.",
+            "Linear search checks items one by one.",
+            "Binary search repeatedly halves the search range in sorted data."
+          ],
+          "ordered": true
+        },
+        {
+          "title": "Common techniques",
+          "paragraphs": [],
+          "bullets": [],
+          "table": {
+            "headers": [
+              "Technique",
+              "Requirement / idea",
+              "Time"
+            ],
+            "rows": [
+              [
+                "Linear search",
+                "Scan items; no sorting needed",
+                "O(n)"
+              ],
+              [
+                "Binary search",
+                "Sorted, efficiently indexable sequence",
+                "O(log n)"
+              ],
+              [
+                "Hash lookup",
+                "Build hash table; resolve collisions",
+                "Expected O(1), worst O(n)"
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Binary-search algorithm",
+          "paragraphs": [],
+          "bullets": [],
+          "code": "BINARY_SEARCH(A, x):\n  low = 0; high = length(A)-1\n  while low <= high:\n    mid = low + floor((high-low)/2)\n    if A[mid] == x: return mid\n    if A[mid] < x: low = mid+1\n    else: high = mid-1\n  return NOT_FOUND"
+        },
+        {
+          "title": "Find 38 in [3,9,10,27,38,43,82]",
+          "paragraphs": [],
+          "bullets": [],
+          "table": {
+            "headers": [
+              "low",
+              "high",
+              "mid",
+              "Action"
+            ],
+            "rows": [
+              [
+                "0",
+                "6",
+                "3: value 27",
+                "38>27; low=4"
+              ],
+              [
+                "4",
+                "6",
+                "5: value 43",
+                "38<43; high=4"
+              ],
+              [
+                "4",
+                "4",
+                "4: value 38",
+                "Found at index 4"
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Why it works and cost",
+          "paragraphs": [],
+          "bullets": [
+            "Each comparison discards the half that cannot contain the target because the data is sorted.",
+            "Iterative binary search takes O(log n) time and O(1) extra space.",
+            "Sorting first has a separate cost; binary search should not be applied directly to an unsorted array."
+          ],
+          "ordered": true
+        }
+      ],
+      "text": "Searching techniques and binary search\nUnderstand the idea\nSearching finds a required value.\nLinear search checks items one by one.\nBinary search repeatedly halves the search range in sorted data.\n\n\nCommon techniques\n\n{'headers': ['Technique', 'Requirement / idea', 'Time'], 'rows': [['Linear search', 'Scan items; no sorting needed', 'O(n)'], ['Binary search', 'Sorted, efficiently indexable sequence', 'O(log n)'], ['Hash lookup', 'Build hash table; resolve collisions', 'Expected O(1), worst O(n)']]}\nBinary-search algorithm\nBINARY_SEARCH(A, x):\n  low = 0; high = length(A)-1\n  while low <= high:\n    mid = low + floor((high-low)/2)\n    if A[mid] == x: return mid\n    if A[mid] < x: low = mid+1\n    else: high = mid-1\n  return NOT_FOUND\n\nFind 38 in [3,9,10,27,38,43,82]\n\n{'headers': ['low', 'high', 'mid', 'Action'], 'rows': [['0', '6', '3: value 27', '38>27; low=4'], ['4', '6', '5: value 43', '38<43; high=4'], ['4', '4', '4: value 38', 'Found at index 4']]}\nWhy it works and cost\nEach comparison discards the half that cannot contain the target because the data is sorted.\nIterative binary search takes O(log n) time and O(1) extra space.\nSorting first has a separate cost; binary search should not be applied directly to an unsorted array.\n\n"
+    },
+    "rational": {
+      "title": "Rational-number ADT in C",
+      "sections": [
+        {
+          "title": "Understand the idea",
+          "paragraphs": [],
+          "bullets": [
+            "A rational number is a fraction with an integer numerator and a nonzero integer denominator.",
+            "An ADT stores it and defines operations on it."
+          ],
+          "ordered": true
+        },
+        {
+          "title": "ADT and invariant",
+          "paragraphs": [],
+          "bullets": [
+            "A rational number is n/d with integer n and nonzero d.",
+            "Store a reduced numerator and positive denominator.",
+            "This makes equality a direct comparison of the two fields.",
+            "All values enter through make()."
+          ],
+          "ordered": true
+        },
+        {
+          "title": "Operations",
+          "paragraphs": [],
+          "bullets": [],
+          "table": {
+            "headers": [
+              "Operation",
+              "Rule"
+            ],
+            "rows": [
+              [
+                "Create",
+                "Check d≠0; normalise sign; divide by gcd"
+              ],
+              [
+                "Add",
+                "a/b+c/d=(ad+bc)/bd"
+              ],
+              [
+                "Multiply",
+                "(a/b)(c/d)=ac/bd"
+              ],
+              [
+                "Equal",
+                "Compare normalised numerator and denominator"
+              ]
+            ]
+          }
+        },
+        {
+          "title": "C program",
+          "paragraphs": [],
+          "bullets": [
+            "This teaching program assumes inputs and intermediate sums/products fit signed long long and never need negating LLONG_MIN. A general-purpose implementation must check overflow or use arbitrary-precision integers."
+          ],
+          "code": "#include <stdio.h>\n#include <stdlib.h>\ntypedef struct { long long n, d; } Rational;\nlong long gcd(long long a, long long b) {\n    while (b) { long long r=a%b; a=b; b=r; }\n    return a;\n}\nRational make(long long n, long long d) {\n    if (!d) { fputs(\"Zero denominator\\n\", stderr); exit(1); }\n    if (d<0) { n=-n; d=-d; }\n    long long g=gcd(n<0 ? -n : n, d);\n    return (Rational){n/g,d/g};\n}\nRational add(Rational a, Rational b) {\n    return make(a.n*b.d+b.n*a.d, a.d*b.d);\n}\nRational multiply(Rational a, Rational b) {\n    return make(a.n*b.n, a.d*b.d);\n}\nint equal(Rational a, Rational b) {\n    return a.n==b.n && a.d==b.d;\n}\nint main(void) {\n    Rational a=make(1,2), b=make(1,3);\n    Rational c=add(a,b), d=multiply(a,b);\n    printf(\"Sum=%lld/%lld\\n\",c.n,c.d);\n    printf(\"Product=%lld/%lld\\n\",d.n,d.d);\n    printf(\"Equal=%d\\n\",equal(a,make(2,4)));\n    return 0;\n}",
+          "ordered": false
+        },
+        {
+          "title": "Output",
+          "paragraphs": [],
+          "bullets": [
+            "Sum=5/6; Product=1/6; Equal=1, because 1/2 and 2/4 normalise to the same pair."
+          ],
+          "result": true,
+          "ordered": false
+        }
+      ],
+      "text": "Rational-number ADT in C\nUnderstand the idea\nA rational number is a fraction with an integer numerator and a nonzero integer denominator.\nAn ADT stores it and defines operations on it.\n\n\nADT and invariant\nA rational number is n/d with integer n and nonzero d.\nStore a reduced numerator and positive denominator.\nThis makes equality a direct comparison of the two fields.\nAll values enter through make().\n\n\nOperations\n\n{'headers': ['Operation', 'Rule'], 'rows': [['Create', 'Check d≠0; normalise sign; divide by gcd'], ['Add', 'a/b+c/d=(ad+bc)/bd'], ['Multiply', '(a/b)(c/d)=ac/bd'], ['Equal', 'Compare normalised numerator and denominator']]}\nC program\nThis teaching program assumes inputs and intermediate sums/products fit signed long long and never need negating LLONG_MIN. A general-purpose implementation must check overflow or use arbitrary-precision integers.\n#include <stdio.h>\n#include <stdlib.h>\ntypedef struct { long long n, d; } Rational;\nlong long gcd(long long a, long long b) {\n    while (b) { long long r=a%b; a=b; b=r; }\n    return a;\n}\nRational make(long long n, long long d) {\n    if (!d) { fputs(\"Zero denominator\\n\", stderr); exit(1); }\n    if (d<0) { n=-n; d=-d; }\n    long long g=gcd(n<0 ? -n : n, d);\n    return (Rational){n/g,d/g};\n}\nRational add(Rational a, Rational b) {\n    return make(a.n*b.d+b.n*a.d, a.d*b.d);\n}\nRational multiply(Rational a, Rational b) {\n    return make(a.n*b.n, a.d*b.d);\n}\nint equal(Rational a, Rational b) {\n    return a.n==b.n && a.d==b.d;\n}\nint main(void) {\n    Rational a=make(1,2), b=make(1,3);\n    Rational c=add(a,b), d=multiply(a,b);\n    printf(\"Sum=%lld/%lld\\n\",c.n,c.d);\n    printf(\"Product=%lld/%lld\\n\",d.n,d.d);\n    printf(\"Equal=%d\\n\",equal(a,make(2,4)));\n    return 0;\n}\n\nOutput\nSum=5/6; Product=1/6; Equal=1, because 1/2 and 2/4 normalise to the same pair.\n\n"
+    },
+    "exam-guide-ds-q01": {
+      "title": "What this question needs",
+      "sections": [
+        {
+          "title": "What to write for this question",
+          "paragraphs": [],
+          "bullets": [
+            "Start with the meaning, then explain the points asked in the question. Use a short example where it makes the idea clear."
+          ],
+          "ordered": false
+        }
+      ],
+      "text": "What this question needs\nWhat to write for this question\nStart with the meaning, then explain the points asked in the question. Use a short example where it makes the idea clear.\n\n"
+    },
+    "exam-guide-ds-q02": {
+      "title": "What this question needs",
+      "sections": [
+        {
+          "title": "What to write for this question",
+          "paragraphs": [],
+          "bullets": [
+            "Start with the meaning, then explain the points asked in the question. Use a short example where it makes the idea clear."
+          ],
+          "ordered": false
+        }
+      ],
+      "text": "What this question needs\nWhat to write for this question\nStart with the meaning, then explain the points asked in the question. Use a short example where it makes the idea clear.\n\n"
+    },
+    "exam-guide-ds-q03": {
+      "title": "What this question needs",
+      "sections": [
+        {
+          "title": "What to write for this question",
+          "paragraphs": [],
+          "bullets": [
+            "Include the labelled diagram and explain its main parts or steps."
+          ],
+          "ordered": false
+        }
+      ],
+      "text": "What this question needs\nWhat to write for this question\nInclude the labelled diagram and explain its main parts or steps.\n\n"
+    },
+    "exam-guide-ds-q04": {
+      "title": "What this question needs",
+      "sections": [
+        {
+          "title": "What to write for this question",
+          "paragraphs": [],
+          "bullets": [
+            "Show the given data or starting state, the intermediate working and the final result. Keep units and stated assumptions."
+          ],
+          "ordered": false
+        }
+      ],
+      "text": "What this question needs\nWhat to write for this question\nShow the given data or starting state, the intermediate working and the final result. Keep units and stated assumptions.\n\n"
+    },
+    "exam-guide-ds-q05": {
+      "title": "What this question needs",
+      "sections": [
+        {
+          "title": "What to write for this question",
+          "paragraphs": [],
+          "bullets": [
+            "Start with the meaning, then explain the points asked in the question. Use a short example where it makes the idea clear."
+          ],
+          "ordered": false
+        }
+      ],
+      "text": "What this question needs\nWhat to write for this question\nStart with the meaning, then explain the points asked in the question. Use a short example where it makes the idea clear.\n\n"
+    },
+    "exam-guide-ds-q06": {
+      "title": "What this question needs",
+      "sections": [
+        {
+          "title": "What to write for this question",
+          "paragraphs": [],
+          "bullets": [
+            "Use separate headings for the properties, types, advantages, limitations or uses requested in this question."
+          ],
+          "ordered": false
+        }
+      ],
+      "text": "What this question needs\nWhat to write for this question\nUse separate headings for the properties, types, advantages, limitations or uses requested in this question.\n\n"
+    },
+    "exam-guide-ds-q07": {
+      "title": "What this question needs",
+      "sections": [
+        {
+          "title": "What to write for this question",
+          "paragraphs": [],
+          "bullets": [
+            "Show the given data or starting state, the intermediate working and the final result. Keep units and stated assumptions."
+          ],
+          "ordered": false
+        }
+      ],
+      "text": "What this question needs\nWhat to write for this question\nShow the given data or starting state, the intermediate working and the final result. Keep units and stated assumptions.\n\n"
+    },
+    "exam-guide-ds-q08": {
+      "title": "What this question needs",
+      "sections": [
+        {
+          "title": "What to write for this question",
+          "paragraphs": [],
+          "bullets": [
+            "Start with the meaning, then explain the points asked in the question. Use a short example where it makes the idea clear."
+          ],
+          "ordered": false
+        }
+      ],
+      "text": "What this question needs\nWhat to write for this question\nStart with the meaning, then explain the points asked in the question. Use a short example where it makes the idea clear.\n\n"
+    },
+    "exam-guide-ds-q09": {
+      "title": "What this question needs",
+      "sections": [
+        {
+          "title": "What to write for this question",
+          "paragraphs": [],
+          "bullets": [
+            "Use separate headings for the properties, types, advantages, limitations or uses requested in this question."
+          ],
+          "ordered": false
+        }
+      ],
+      "text": "What this question needs\nWhat to write for this question\nUse separate headings for the properties, types, advantages, limitations or uses requested in this question.\n\n"
+    },
+    "exam-guide-ds-q10": {
+      "title": "What this question needs",
+      "sections": [
+        {
+          "title": "What to write for this question",
+          "paragraphs": [],
+          "bullets": [
+            "Use separate headings for the properties, types, advantages, limitations or uses requested in this question."
+          ],
+          "ordered": false
+        }
+      ],
+      "text": "What this question needs\nWhat to write for this question\nUse separate headings for the properties, types, advantages, limitations or uses requested in this question.\n\n"
+    },
+    "exam-guide-ds-q11": {
+      "title": "What this question needs",
+      "sections": [
+        {
+          "title": "What to write for this question",
+          "paragraphs": [],
+          "bullets": [
+            "Start with the meaning, then explain the points asked in the question. Use a short example where it makes the idea clear."
+          ],
+          "ordered": false
+        }
+      ],
+      "text": "What this question needs\nWhat to write for this question\nStart with the meaning, then explain the points asked in the question. Use a short example where it makes the idea clear.\n\n"
+    },
+    "exam-guide-ds-q12": {
+      "title": "What this question needs",
+      "sections": [
+        {
+          "title": "What to write for this question",
+          "paragraphs": [],
+          "bullets": [
+            "Start with the meaning, then explain the points asked in the question. Use a short example where it makes the idea clear."
+          ],
+          "ordered": false
+        }
+      ],
+      "text": "What this question needs\nWhat to write for this question\nStart with the meaning, then explain the points asked in the question. Use a short example where it makes the idea clear.\n\n"
+    },
+    "exam-guide-ds-q13": {
+      "title": "What this question needs",
+      "sections": [
+        {
+          "title": "What to write for this question",
+          "paragraphs": [],
+          "bullets": [
+            "Start with the meaning, then explain the points asked in the question. Use a short example where it makes the idea clear."
+          ],
+          "ordered": false
+        }
+      ],
+      "text": "What this question needs\nWhat to write for this question\nStart with the meaning, then explain the points asked in the question. Use a short example where it makes the idea clear.\n\n"
+    },
+    "exam-guide-ds-q14": {
+      "title": "What this question needs",
+      "sections": [
+        {
+          "title": "What to write for this question",
+          "paragraphs": [],
+          "bullets": [
+            "Start with the meaning, then explain the points asked in the question. Use a short example where it makes the idea clear."
+          ],
+          "ordered": false
+        }
+      ],
+      "text": "What this question needs\nWhat to write for this question\nStart with the meaning, then explain the points asked in the question. Use a short example where it makes the idea clear.\n\n"
+    },
+    "exam-guide-ds-q15": {
+      "title": "What this question needs",
+      "sections": [
+        {
+          "title": "What to write for this question",
+          "paragraphs": [],
+          "bullets": [
+            "Use separate headings for the properties, types, advantages, limitations or uses requested in this question."
+          ],
+          "ordered": false
+        }
+      ],
+      "text": "What this question needs\nWhat to write for this question\nUse separate headings for the properties, types, advantages, limitations or uses requested in this question.\n\n"
+    },
+    "exam-guide-ds-q16": {
+      "title": "What this question needs",
+      "sections": [
+        {
+          "title": "What to write for this question",
+          "paragraphs": [],
+          "bullets": [
+            "Use separate headings for the properties, types, advantages, limitations or uses requested in this question."
+          ],
+          "ordered": false
+        }
+      ],
+      "text": "What this question needs\nWhat to write for this question\nUse separate headings for the properties, types, advantages, limitations or uses requested in this question.\n\n"
+    },
+    "exam-guide-ds-q17": {
+      "title": "What this question needs",
+      "sections": [
+        {
+          "title": "What to write for this question",
+          "paragraphs": [],
+          "bullets": [
+            "Start with the meaning, then explain the points asked in the question. Use a short example where it makes the idea clear."
+          ],
+          "ordered": false
+        }
+      ],
+      "text": "What this question needs\nWhat to write for this question\nStart with the meaning, then explain the points asked in the question. Use a short example where it makes the idea clear.\n\n"
+    },
+    "exam-guide-ds-q18": {
+      "title": "What this question needs",
+      "sections": [
+        {
+          "title": "What to write for this question",
+          "paragraphs": [],
+          "bullets": [
+            "Include the labelled diagram and explain its main parts or steps."
+          ],
+          "ordered": false
+        }
+      ],
+      "text": "What this question needs\nWhat to write for this question\nInclude the labelled diagram and explain its main parts or steps.\n\n"
+    },
+    "exam-guide-ds-q19": {
+      "title": "What this question needs",
+      "sections": [
+        {
+          "title": "What to write for this question",
+          "paragraphs": [],
+          "bullets": [
+            "Use separate headings for the properties, types, advantages, limitations or uses requested in this question."
+          ],
+          "ordered": false
+        }
+      ],
+      "text": "What this question needs\nWhat to write for this question\nUse separate headings for the properties, types, advantages, limitations or uses requested in this question.\n\n"
+    },
+    "exam-guide-ds-q20": {
+      "title": "What this question needs",
+      "sections": [
+        {
+          "title": "What to write for this question",
+          "paragraphs": [],
+          "bullets": [
+            "Explain the approach briefly, then write the required algorithm or indented code. Include an example or output when asked."
+          ],
+          "ordered": false
+        }
+      ],
+      "text": "What this question needs\nWhat to write for this question\nExplain the approach briefly, then write the required algorithm or indented code. Include an example or output when asked.\n\n"
+    },
+    "exam-guide-ds-q21": {
+      "title": "What this question needs",
+      "sections": [
+        {
+          "title": "What to write for this question",
+          "paragraphs": [],
+          "bullets": [
+            "Start with the meaning, then explain the points asked in the question. Use a short example where it makes the idea clear."
+          ],
+          "ordered": false
+        }
+      ],
+      "text": "What this question needs\nWhat to write for this question\nStart with the meaning, then explain the points asked in the question. Use a short example where it makes the idea clear.\n\n"
+    },
+    "exam-guide-ds-q22": {
+      "title": "What this question needs",
+      "sections": [
+        {
+          "title": "What to write for this question",
+          "paragraphs": [],
+          "bullets": [
+            "Present the differences side by side. Compare the same feature in both columns."
+          ],
+          "ordered": false
+        }
+      ],
+      "text": "What this question needs\nWhat to write for this question\nPresent the differences side by side. Compare the same feature in both columns.\n\n"
+    },
+    "exam-guide-ds-q23": {
+      "title": "What this question needs",
+      "sections": [
+        {
+          "title": "What to write for this question",
+          "paragraphs": [],
+          "bullets": [
+            "Start with the meaning, then explain the points asked in the question. Use a short example where it makes the idea clear."
+          ],
+          "ordered": false
+        }
+      ],
+      "text": "What this question needs\nWhat to write for this question\nStart with the meaning, then explain the points asked in the question. Use a short example where it makes the idea clear.\n\n"
+    },
+    "exam-guide-ds-q24": {
+      "title": "What this question needs",
+      "sections": [
+        {
+          "title": "What to write for this question",
+          "paragraphs": [],
+          "bullets": [
+            "Start with the meaning, then explain the points asked in the question. Use a short example where it makes the idea clear."
+          ],
+          "ordered": false
+        }
+      ],
+      "text": "What this question needs\nWhat to write for this question\nStart with the meaning, then explain the points asked in the question. Use a short example where it makes the idea clear.\n\n"
+    },
+    "exam-guide-ds-q25": {
+      "title": "What this question needs",
+      "sections": [
+        {
+          "title": "What to write for this question",
+          "paragraphs": [],
+          "bullets": [
+            "Start with the meaning, then explain the points asked in the question. Use a short example where it makes the idea clear."
+          ],
+          "ordered": false
+        }
+      ],
+      "text": "What this question needs\nWhat to write for this question\nStart with the meaning, then explain the points asked in the question. Use a short example where it makes the idea clear.\n\n"
+    },
+    "exam-guide-ds-q26": {
+      "title": "What this question needs",
+      "sections": [
+        {
+          "title": "What to write for this question",
+          "paragraphs": [],
+          "bullets": [
+            "Start with the meaning, then explain the points asked in the question. Use a short example where it makes the idea clear."
+          ],
+          "ordered": false
+        }
+      ],
+      "text": "What this question needs\nWhat to write for this question\nStart with the meaning, then explain the points asked in the question. Use a short example where it makes the idea clear.\n\n"
+    },
+    "exam-guide-ds-q27": {
+      "title": "What this question needs",
+      "sections": [
+        {
+          "title": "What to write for this question",
+          "paragraphs": [],
+          "bullets": [
+            "Start with the meaning, then explain the points asked in the question. Use a short example where it makes the idea clear."
+          ],
+          "ordered": false
+        }
+      ],
+      "text": "What this question needs\nWhat to write for this question\nStart with the meaning, then explain the points asked in the question. Use a short example where it makes the idea clear.\n\n"
+    },
+    "exam-guide-ds-q28": {
+      "title": "What this question needs",
+      "sections": [
+        {
+          "title": "What to write for this question",
+          "paragraphs": [],
+          "bullets": [
+            "Start with the meaning, then explain the points asked in the question. Use a short example where it makes the idea clear."
+          ],
+          "ordered": false
+        }
+      ],
+      "text": "What this question needs\nWhat to write for this question\nStart with the meaning, then explain the points asked in the question. Use a short example where it makes the idea clear.\n\n"
+    },
+    "exam-guide-ds-q29": {
+      "title": "What this question needs",
+      "sections": [
+        {
+          "title": "What to write for this question",
+          "paragraphs": [],
+          "bullets": [
+            "Explain the approach briefly, then write the required algorithm or indented code. Include an example or output when asked."
+          ],
+          "ordered": false
+        }
+      ],
+      "text": "What this question needs\nWhat to write for this question\nExplain the approach briefly, then write the required algorithm or indented code. Include an example or output when asked.\n\n"
+    },
+    "exam-guide-ds-q30": {
+      "title": "What this question needs",
+      "sections": [
+        {
+          "title": "What to write for this question",
+          "paragraphs": [],
+          "bullets": [
+            "Start with the meaning, then explain the points asked in the question. Use a short example where it makes the idea clear."
+          ],
+          "ordered": false
+        }
+      ],
+      "text": "What this question needs\nWhat to write for this question\nStart with the meaning, then explain the points asked in the question. Use a short example where it makes the idea clear.\n\n"
+    },
+    "exam-guide-ds-q31": {
+      "title": "What this question needs",
+      "sections": [
+        {
+          "title": "What to write for this question",
+          "paragraphs": [],
+          "bullets": [
+            "Present the differences side by side. Compare the same feature in both columns."
+          ],
+          "ordered": false
+        }
+      ],
+      "text": "What this question needs\nWhat to write for this question\nPresent the differences side by side. Compare the same feature in both columns.\n\n"
+    },
+    "exam-guide-ds-q32": {
+      "title": "What this question needs",
+      "sections": [
+        {
+          "title": "What to write for this question",
+          "paragraphs": [],
+          "bullets": [
+            "Use separate headings for the properties, types, advantages, limitations or uses requested in this question."
+          ],
+          "ordered": false
+        }
+      ],
+      "text": "What this question needs\nWhat to write for this question\nUse separate headings for the properties, types, advantages, limitations or uses requested in this question.\n\n"
+    },
+    "exam-guide-ds-q33": {
+      "title": "What this question needs",
+      "sections": [
+        {
+          "title": "What to write for this question",
+          "paragraphs": [],
+          "bullets": [
+            "Present the differences side by side. Compare the same feature in both columns."
+          ],
+          "ordered": false
+        }
+      ],
+      "text": "What this question needs\nWhat to write for this question\nPresent the differences side by side. Compare the same feature in both columns.\n\n"
+    },
+    "exam-guide-ds-q34": {
+      "title": "What this question needs",
+      "sections": [
+        {
+          "title": "What to write for this question",
+          "paragraphs": [],
+          "bullets": [
+            "Start with the meaning, then explain the points asked in the question. Use a short example where it makes the idea clear."
+          ],
+          "ordered": false
+        }
+      ],
+      "text": "What this question needs\nWhat to write for this question\nStart with the meaning, then explain the points asked in the question. Use a short example where it makes the idea clear.\n\n"
+    },
+    "exam-guide-ds-q35": {
+      "title": "What this question needs",
+      "sections": [
+        {
+          "title": "What to write for this question",
+          "paragraphs": [],
+          "bullets": [
+            "Start with the meaning, then explain the points asked in the question. Use a short example where it makes the idea clear."
+          ],
+          "ordered": false
+        }
+      ],
+      "text": "What this question needs\nWhat to write for this question\nStart with the meaning, then explain the points asked in the question. Use a short example where it makes the idea clear.\n\n"
+    },
+    "exam-guide-ds-q36": {
+      "title": "What this question needs",
+      "sections": [
+        {
+          "title": "What to write for this question",
+          "paragraphs": [],
+          "bullets": [
+            "Use separate headings for the properties, types, advantages, limitations or uses requested in this question."
+          ],
+          "ordered": false
+        }
+      ],
+      "text": "What this question needs\nWhat to write for this question\nUse separate headings for the properties, types, advantages, limitations or uses requested in this question.\n\n"
+    },
+    "exam-guide-ds-q37": {
+      "title": "What this question needs",
+      "sections": [
+        {
+          "title": "What to write for this question",
+          "paragraphs": [],
+          "bullets": [
+            "Explain the approach briefly, then write the required algorithm or indented code. Include an example or output when asked."
+          ],
+          "ordered": false
+        }
+      ],
+      "text": "What this question needs\nWhat to write for this question\nExplain the approach briefly, then write the required algorithm or indented code. Include an example or output when asked.\n\n"
+    },
+    "exam-guide-ds-q38": {
+      "title": "What this question needs",
+      "sections": [
+        {
+          "title": "What to write for this question",
+          "paragraphs": [],
+          "bullets": [
+            "Start with the meaning, then explain the points asked in the question. Use a short example where it makes the idea clear."
+          ],
+          "ordered": false
+        }
+      ],
+      "text": "What this question needs\nWhat to write for this question\nStart with the meaning, then explain the points asked in the question. Use a short example where it makes the idea clear.\n\n"
+    }
+  },
+  "diagrams": {
+    "list": {
+      "caption": "head → 10 → 20 → 30 → NULL; links point to the next node.",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 620 150\" role=\"img\" aria-label=\"head → 10 → 20 → 30 → NULL; links point to the next node.\"><rect width=\"100%\" height=\"100%\" fill=\"#F4E9CD\"/><defs><marker id=\"arrow-list\" markerWidth=\"7\" markerHeight=\"7\" refX=\"5\" refY=\"3\" orient=\"auto\"><path d=\"M0 0L6 3L0 6Z\" fill=\"#1B1B3A\"/></marker></defs><path marker-mid=\"url(#arrow-list)\" d=\"M55 75L115.0 75.0L175 75\" stroke=\"#1B1B3A\" stroke-width=\"3\"/><path marker-mid=\"url(#arrow-list)\" d=\"M175 75L235.0 75.0L295 75\" stroke=\"#1B1B3A\" stroke-width=\"3\"/><path marker-mid=\"url(#arrow-list)\" d=\"M295 75L355.0 75.0L415 75\" stroke=\"#1B1B3A\" stroke-width=\"3\"/><path marker-mid=\"url(#arrow-list)\" d=\"M415 75L482.5 75.0L550 75\" stroke=\"#1B1B3A\" stroke-width=\"3\"/><rect x=\"24.0\" y=\"55\" width=\"62\" height=\"40\" fill=\"#fffaf0\" stroke=\"#1B1B3A\" stroke-width=\"2\"/><text x=\"55\" y=\"81\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"18\" fill=\"#1B1B3A\">head</text><rect x=\"152.0\" y=\"55\" width=\"46\" height=\"40\" fill=\"#fffaf0\" stroke=\"#1B1B3A\" stroke-width=\"2\"/><text x=\"175\" y=\"81\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"18\" fill=\"#1B1B3A\">10</text><rect x=\"272.0\" y=\"55\" width=\"46\" height=\"40\" fill=\"#fffaf0\" stroke=\"#1B1B3A\" stroke-width=\"2\"/><text x=\"295\" y=\"81\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"18\" fill=\"#1B1B3A\">20</text><rect x=\"392.0\" y=\"55\" width=\"46\" height=\"40\" fill=\"#fffaf0\" stroke=\"#1B1B3A\" stroke-width=\"2\"/><text x=\"415\" y=\"81\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"18\" fill=\"#1B1B3A\">30</text><rect x=\"519.0\" y=\"55\" width=\"62\" height=\"40\" fill=\"#fffaf0\" stroke=\"#1B1B3A\" stroke-width=\"2\"/><text x=\"550\" y=\"81\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"18\" fill=\"#1B1B3A\">NULL</text></svg>"
+    },
+    "queue": {
+      "caption": "FIFO queue: remove 10 at the front; add the next value after 30 at the rear.",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 620 160\" role=\"img\" aria-label=\"FIFO queue: remove 10 at the front; add the next value after 30 at the rear.\"><rect width=\"100%\" height=\"100%\" fill=\"#F4E9CD\"/><defs><marker id=\"arrow-queue\" markerWidth=\"7\" markerHeight=\"7\" refX=\"5\" refY=\"3\" orient=\"auto\"><path d=\"M0 0L6 3L0 6Z\" fill=\"#1B1B3A\"/></marker></defs><path d=\"M100 45L100.0 80.0L100 115\" stroke=\"#1B1B3A\" stroke-width=\"3\"/><path d=\"M100 115L185.0 115.0L270 115\" stroke=\"#1B1B3A\" stroke-width=\"3\"/><path d=\"M270 115L355.0 115.0L440 115\" stroke=\"#1B1B3A\" stroke-width=\"3\"/><path d=\"M440 115L440.0 80.0L440 45\" stroke=\"#1B1B3A\" stroke-width=\"3\"/><rect x=\"64.0\" y=\"25\" width=\"72\" height=\"40\" fill=\"#fffaf0\" stroke=\"#1B1B3A\" stroke-width=\"2\"/><text x=\"100\" y=\"51\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"18\" fill=\"#1B1B3A\">front</text><rect x=\"77.0\" y=\"95\" width=\"46\" height=\"40\" fill=\"#fffaf0\" stroke=\"#1B1B3A\" stroke-width=\"2\"/><text x=\"100\" y=\"121\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"18\" fill=\"#1B1B3A\">10</text><rect x=\"247.0\" y=\"95\" width=\"46\" height=\"40\" fill=\"#fffaf0\" stroke=\"#1B1B3A\" stroke-width=\"2\"/><text x=\"270\" y=\"121\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"18\" fill=\"#1B1B3A\">20</text><rect x=\"417.0\" y=\"95\" width=\"46\" height=\"40\" fill=\"#fffaf0\" stroke=\"#1B1B3A\" stroke-width=\"2\"/><text x=\"440\" y=\"121\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"18\" fill=\"#1B1B3A\">30</text><rect x=\"409.0\" y=\"25\" width=\"62\" height=\"40\" fill=\"#fffaf0\" stroke=\"#1B1B3A\" stroke-width=\"2\"/><text x=\"440\" y=\"51\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"18\" fill=\"#1B1B3A\">rear</text></svg>"
+    },
+    "circular": {
+      "caption": "tail stores 30; top = tail->next stores 10. The last link returns to the first node.",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 620 200\" role=\"img\" aria-label=\"tail stores 30; top = tail-&gt;next stores 10. The last link returns to the first node.\"><rect width=\"100%\" height=\"100%\" fill=\"#F4E9CD\"/><defs><marker id=\"arrow-circular\" markerWidth=\"7\" markerHeight=\"7\" refX=\"5\" refY=\"3\" orient=\"auto\"><path d=\"M0 0L6 3L0 6Z\" fill=\"#1B1B3A\"/></marker></defs><path marker-mid=\"url(#arrow-circular)\" d=\"M120 55L215.0 55.0L310 55\" stroke=\"#1B1B3A\" stroke-width=\"3\"/><path marker-mid=\"url(#arrow-circular)\" d=\"M310 55L405.0 55.0L500 55\" stroke=\"#1B1B3A\" stroke-width=\"3\"/><path marker-mid=\"url(#arrow-circular)\" d=\"M500 55L405.0 102.5L310 150\" stroke=\"#1B1B3A\" stroke-width=\"3\"/><path marker-mid=\"url(#arrow-circular)\" d=\"M310 150L215.0 102.5L120 55\" stroke=\"#1B1B3A\" stroke-width=\"3\"/><rect x=\"79.0\" y=\"35\" width=\"82\" height=\"40\" fill=\"#fffaf0\" stroke=\"#1B1B3A\" stroke-width=\"2\"/><text x=\"120\" y=\"61\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"18\" fill=\"#1B1B3A\">top:10</text><rect x=\"287.0\" y=\"35\" width=\"46\" height=\"40\" fill=\"#fffaf0\" stroke=\"#1B1B3A\" stroke-width=\"2\"/><text x=\"310\" y=\"61\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"18\" fill=\"#1B1B3A\">20</text><rect x=\"454.0\" y=\"35\" width=\"92\" height=\"40\" fill=\"#fffaf0\" stroke=\"#1B1B3A\" stroke-width=\"2\"/><text x=\"500\" y=\"61\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"18\" fill=\"#1B1B3A\">tail:30</text><rect x=\"229.0\" y=\"130\" width=\"162\" height=\"40\" fill=\"#fffaf0\" stroke=\"#1B1B3A\" stroke-width=\"2\"/><text x=\"310\" y=\"156\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"18\" fill=\"#1B1B3A\">returns to top</text></svg>"
+    },
+    "traversal": {
+      "caption": "Example binary tree: A has B and C; B has D and E; C has right child F.",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 620 200\" role=\"img\" aria-label=\"Example binary tree: A has B and C; B has D and E; C has right child F.\"><rect width=\"100%\" height=\"100%\" fill=\"#F4E9CD\"/><defs><marker id=\"arrow-traversal\" markerWidth=\"7\" markerHeight=\"7\" refX=\"5\" refY=\"3\" orient=\"auto\"><path d=\"M0 0L6 3L0 6Z\" fill=\"#1B1B3A\"/></marker></defs><path d=\"M165.0 100L128.75 132.5L92.5 165\" stroke=\"#1B1B3A\" stroke-width=\"3\"/><path d=\"M165.0 100L201.25 132.5L237.5 165\" stroke=\"#1B1B3A\" stroke-width=\"3\"/><path d=\"M310.0 35L237.5 67.5L165.0 100\" stroke=\"#1B1B3A\" stroke-width=\"3\"/><path d=\"M455.0 100L491.25 132.5L527.5 165\" stroke=\"#1B1B3A\" stroke-width=\"3\"/><path d=\"M310.0 35L382.5 67.5L455.0 100\" stroke=\"#1B1B3A\" stroke-width=\"3\"/><rect x=\"287.0\" y=\"15\" width=\"46\" height=\"40\" fill=\"#fffaf0\" stroke=\"#1B1B3A\" stroke-width=\"2\"/><text x=\"310.0\" y=\"41\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"18\" fill=\"#1B1B3A\">A</text><rect x=\"142.0\" y=\"80\" width=\"46\" height=\"40\" fill=\"#fffaf0\" stroke=\"#1B1B3A\" stroke-width=\"2\"/><text x=\"165.0\" y=\"106\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"18\" fill=\"#1B1B3A\">B</text><rect x=\"69.5\" y=\"145\" width=\"46\" height=\"40\" fill=\"#fffaf0\" stroke=\"#1B1B3A\" stroke-width=\"2\"/><text x=\"92.5\" y=\"171\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"18\" fill=\"#1B1B3A\">D</text><rect x=\"214.5\" y=\"145\" width=\"46\" height=\"40\" fill=\"#fffaf0\" stroke=\"#1B1B3A\" stroke-width=\"2\"/><text x=\"237.5\" y=\"171\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"18\" fill=\"#1B1B3A\">E</text><rect x=\"432.0\" y=\"80\" width=\"46\" height=\"40\" fill=\"#fffaf0\" stroke=\"#1B1B3A\" stroke-width=\"2\"/><text x=\"455.0\" y=\"106\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"18\" fill=\"#1B1B3A\">C</text><rect x=\"504.5\" y=\"145\" width=\"46\" height=\"40\" fill=\"#fffaf0\" stroke=\"#1B1B3A\" stroke-width=\"2\"/><text x=\"527.5\" y=\"171\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"18\" fill=\"#1B1B3A\">F</text></svg>"
+    },
+    "expr-a": {
+      "caption": "a) A + B * C: multiplication is below addition.",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 620 200\" role=\"img\" aria-label=\"a) A + B * C: multiplication is below addition.\"><rect width=\"100%\" height=\"100%\" fill=\"#F4E9CD\"/><defs><marker id=\"arrow-expr-a\" markerWidth=\"7\" markerHeight=\"7\" refX=\"5\" refY=\"3\" orient=\"auto\"><path d=\"M0 0L6 3L0 6Z\" fill=\"#1B1B3A\"/></marker></defs><path d=\"M310.0 35L213.33333333333334 67.5L116.66666666666667 100\" stroke=\"#1B1B3A\" stroke-width=\"3\"/><path d=\"M406.6666666666667 100L358.33333333333337 132.5L310.0 165\" stroke=\"#1B1B3A\" stroke-width=\"3\"/><path d=\"M406.6666666666667 100L455.0 132.5L503.3333333333333 165\" stroke=\"#1B1B3A\" stroke-width=\"3\"/><path d=\"M310.0 35L358.33333333333337 67.5L406.6666666666667 100\" stroke=\"#1B1B3A\" stroke-width=\"3\"/><rect x=\"287.0\" y=\"15\" width=\"46\" height=\"40\" fill=\"#fffaf0\" stroke=\"#1B1B3A\" stroke-width=\"2\"/><text x=\"310.0\" y=\"41\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"18\" fill=\"#1B1B3A\">+</text><rect x=\"93.66666666666667\" y=\"80\" width=\"46\" height=\"40\" fill=\"#fffaf0\" stroke=\"#1B1B3A\" stroke-width=\"2\"/><text x=\"116.66666666666667\" y=\"106\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"18\" fill=\"#1B1B3A\">A</text><rect x=\"383.6666666666667\" y=\"80\" width=\"46\" height=\"40\" fill=\"#fffaf0\" stroke=\"#1B1B3A\" stroke-width=\"2\"/><text x=\"406.6666666666667\" y=\"106\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"18\" fill=\"#1B1B3A\">*</text><rect x=\"287.0\" y=\"145\" width=\"46\" height=\"40\" fill=\"#fffaf0\" stroke=\"#1B1B3A\" stroke-width=\"2\"/><text x=\"310.0\" y=\"171\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"18\" fill=\"#1B1B3A\">B</text><rect x=\"480.3333333333333\" y=\"145\" width=\"46\" height=\"40\" fill=\"#fffaf0\" stroke=\"#1B1B3A\" stroke-width=\"2\"/><text x=\"503.3333333333333\" y=\"171\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"18\" fill=\"#1B1B3A\">C</text></svg>"
+    },
+    "expr-b": {
+      "caption": "b) (A + B) * C: parentheses make addition a subtree.",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 620 200\" role=\"img\" aria-label=\"b) (A + B) * C: parentheses make addition a subtree.\"><rect width=\"100%\" height=\"100%\" fill=\"#F4E9CD\"/><defs><marker id=\"arrow-expr-b\" markerWidth=\"7\" markerHeight=\"7\" refX=\"5\" refY=\"3\" orient=\"auto\"><path d=\"M0 0L6 3L0 6Z\" fill=\"#1B1B3A\"/></marker></defs><path d=\"M213.33333333333334 100L165.0 132.5L116.66666666666667 165\" stroke=\"#1B1B3A\" stroke-width=\"3\"/><path d=\"M213.33333333333334 100L261.6666666666667 132.5L310.0 165\" stroke=\"#1B1B3A\" stroke-width=\"3\"/><path d=\"M310.0 35L261.6666666666667 67.5L213.33333333333334 100\" stroke=\"#1B1B3A\" stroke-width=\"3\"/><path d=\"M310.0 35L406.6666666666667 67.5L503.33333333333337 100\" stroke=\"#1B1B3A\" stroke-width=\"3\"/><rect x=\"287.0\" y=\"15\" width=\"46\" height=\"40\" fill=\"#fffaf0\" stroke=\"#1B1B3A\" stroke-width=\"2\"/><text x=\"310.0\" y=\"41\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"18\" fill=\"#1B1B3A\">*</text><rect x=\"190.33333333333334\" y=\"80\" width=\"46\" height=\"40\" fill=\"#fffaf0\" stroke=\"#1B1B3A\" stroke-width=\"2\"/><text x=\"213.33333333333334\" y=\"106\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"18\" fill=\"#1B1B3A\">+</text><rect x=\"93.66666666666667\" y=\"145\" width=\"46\" height=\"40\" fill=\"#fffaf0\" stroke=\"#1B1B3A\" stroke-width=\"2\"/><text x=\"116.66666666666667\" y=\"171\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"18\" fill=\"#1B1B3A\">A</text><rect x=\"287.0\" y=\"145\" width=\"46\" height=\"40\" fill=\"#fffaf0\" stroke=\"#1B1B3A\" stroke-width=\"2\"/><text x=\"310.0\" y=\"171\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"18\" fill=\"#1B1B3A\">B</text><rect x=\"480.33333333333337\" y=\"80\" width=\"46\" height=\"40\" fill=\"#fffaf0\" stroke=\"#1B1B3A\" stroke-width=\"2\"/><text x=\"503.33333333333337\" y=\"106\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"18\" fill=\"#1B1B3A\">C</text></svg>"
+    },
+    "expr-c": {
+      "caption": "c) A + (B - C) * D $ (E * F); $ is assumed to mean exponentiation.",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 620 330\" role=\"img\" aria-label=\"c) A + (B - C) * D $ (E * F); $ is assumed to mean exponentiation.\"><rect width=\"100%\" height=\"100%\" fill=\"#F4E9CD\"/><defs><marker id=\"arrow-expr-c\" markerWidth=\"7\" markerHeight=\"7\" refX=\"5\" refY=\"3\" orient=\"auto\"><path d=\"M0 0L6 3L0 6Z\" fill=\"#1B1B3A\"/></marker></defs><path d=\"M310.0 35L189.16666666666669 67.5L68.33333333333334 100\" stroke=\"#1B1B3A\" stroke-width=\"3\"/><path d=\"M213.33333333333334 165L189.16666666666669 197.5L165.0 230\" stroke=\"#1B1B3A\" stroke-width=\"3\"/><path d=\"M213.33333333333334 165L237.5 197.5L261.66666666666663 230\" stroke=\"#1B1B3A\" stroke-width=\"3\"/><path d=\"M358.3333333333333 100L285.8333333333333 132.5L213.33333333333334 165\" stroke=\"#1B1B3A\" stroke-width=\"3\"/><path d=\"M455.0 165L406.6666666666667 197.5L358.33333333333337 230\" stroke=\"#1B1B3A\" stroke-width=\"3\"/><path d=\"M503.33333333333337 230L479.1666666666667 262.5L455.0 295\" stroke=\"#1B1B3A\" stroke-width=\"3\"/><path d=\"M503.33333333333337 230L527.5 262.5L551.6666666666667 295\" stroke=\"#1B1B3A\" stroke-width=\"3\"/><path d=\"M455.0 165L479.1666666666667 197.5L503.33333333333337 230\" stroke=\"#1B1B3A\" stroke-width=\"3\"/><path d=\"M358.3333333333333 100L406.66666666666663 132.5L455.0 165\" stroke=\"#1B1B3A\" stroke-width=\"3\"/><path d=\"M310.0 35L334.16666666666663 67.5L358.3333333333333 100\" stroke=\"#1B1B3A\" stroke-width=\"3\"/><rect x=\"287.0\" y=\"15\" width=\"46\" height=\"40\" fill=\"#fffaf0\" stroke=\"#1B1B3A\" stroke-width=\"2\"/><text x=\"310.0\" y=\"41\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"18\" fill=\"#1B1B3A\">+</text><rect x=\"45.33333333333334\" y=\"80\" width=\"46\" height=\"40\" fill=\"#fffaf0\" stroke=\"#1B1B3A\" stroke-width=\"2\"/><text x=\"68.33333333333334\" y=\"106\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"18\" fill=\"#1B1B3A\">A</text><rect x=\"335.3333333333333\" y=\"80\" width=\"46\" height=\"40\" fill=\"#fffaf0\" stroke=\"#1B1B3A\" stroke-width=\"2\"/><text x=\"358.3333333333333\" y=\"106\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"18\" fill=\"#1B1B3A\">*</text><rect x=\"190.33333333333334\" y=\"145\" width=\"46\" height=\"40\" fill=\"#fffaf0\" stroke=\"#1B1B3A\" stroke-width=\"2\"/><text x=\"213.33333333333334\" y=\"171\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"18\" fill=\"#1B1B3A\">-</text><rect x=\"142.0\" y=\"210\" width=\"46\" height=\"40\" fill=\"#fffaf0\" stroke=\"#1B1B3A\" stroke-width=\"2\"/><text x=\"165.0\" y=\"236\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"18\" fill=\"#1B1B3A\">B</text><rect x=\"238.66666666666663\" y=\"210\" width=\"46\" height=\"40\" fill=\"#fffaf0\" stroke=\"#1B1B3A\" stroke-width=\"2\"/><text x=\"261.66666666666663\" y=\"236\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"18\" fill=\"#1B1B3A\">C</text><rect x=\"432.0\" y=\"145\" width=\"46\" height=\"40\" fill=\"#fffaf0\" stroke=\"#1B1B3A\" stroke-width=\"2\"/><text x=\"455.0\" y=\"171\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"18\" fill=\"#1B1B3A\">$</text><rect x=\"335.33333333333337\" y=\"210\" width=\"46\" height=\"40\" fill=\"#fffaf0\" stroke=\"#1B1B3A\" stroke-width=\"2\"/><text x=\"358.33333333333337\" y=\"236\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"18\" fill=\"#1B1B3A\">D</text><rect x=\"480.33333333333337\" y=\"210\" width=\"46\" height=\"40\" fill=\"#fffaf0\" stroke=\"#1B1B3A\" stroke-width=\"2\"/><text x=\"503.33333333333337\" y=\"236\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"18\" fill=\"#1B1B3A\">*</text><rect x=\"432.0\" y=\"275\" width=\"46\" height=\"40\" fill=\"#fffaf0\" stroke=\"#1B1B3A\" stroke-width=\"2\"/><text x=\"455.0\" y=\"301\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"18\" fill=\"#1B1B3A\">E</text><rect x=\"528.6666666666667\" y=\"275\" width=\"46\" height=\"40\" fill=\"#fffaf0\" stroke=\"#1B1B3A\" stroke-width=\"2\"/><text x=\"551.6666666666667\" y=\"301\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"18\" fill=\"#1B1B3A\">F</text></svg>"
+    },
+    "expr-d": {
+      "caption": "d) (A + B * C) $ ((A + B) * C); $ is assumed to mean exponentiation.",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 620 265\" role=\"img\" aria-label=\"d) (A + B * C) $ ((A + B) * C); $ is assumed to mean exponentiation.\"><rect width=\"100%\" height=\"100%\" fill=\"#F4E9CD\"/><defs><marker id=\"arrow-expr-d\" markerWidth=\"7\" markerHeight=\"7\" refX=\"5\" refY=\"3\" orient=\"auto\"><path d=\"M0 0L6 3L0 6Z\" fill=\"#1B1B3A\"/></marker></defs><path d=\"M165.0 100L116.66666666666667 132.5L68.33333333333334 165\" stroke=\"#1B1B3A\" stroke-width=\"3\"/><path d=\"M213.33333333333334 165L189.16666666666669 197.5L165.0 230\" stroke=\"#1B1B3A\" stroke-width=\"3\"/><path d=\"M213.33333333333334 165L237.5 197.5L261.66666666666663 230\" stroke=\"#1B1B3A\" stroke-width=\"3\"/><path d=\"M165.0 100L189.16666666666669 132.5L213.33333333333334 165\" stroke=\"#1B1B3A\" stroke-width=\"3\"/><path d=\"M310.0 35L237.5 67.5L165.0 100\" stroke=\"#1B1B3A\" stroke-width=\"3\"/><path d=\"M406.6666666666667 165L382.5 197.5L358.33333333333337 230\" stroke=\"#1B1B3A\" stroke-width=\"3\"/><path d=\"M406.6666666666667 165L430.83333333333337 197.5L455.0 230\" stroke=\"#1B1B3A\" stroke-width=\"3\"/><path d=\"M455.0 100L430.83333333333337 132.5L406.6666666666667 165\" stroke=\"#1B1B3A\" stroke-width=\"3\"/><path d=\"M455.0 100L503.33333333333337 132.5L551.6666666666667 165\" stroke=\"#1B1B3A\" stroke-width=\"3\"/><path d=\"M310.0 35L382.5 67.5L455.0 100\" stroke=\"#1B1B3A\" stroke-width=\"3\"/><rect x=\"287.0\" y=\"15\" width=\"46\" height=\"40\" fill=\"#fffaf0\" stroke=\"#1B1B3A\" stroke-width=\"2\"/><text x=\"310.0\" y=\"41\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"18\" fill=\"#1B1B3A\">$</text><rect x=\"142.0\" y=\"80\" width=\"46\" height=\"40\" fill=\"#fffaf0\" stroke=\"#1B1B3A\" stroke-width=\"2\"/><text x=\"165.0\" y=\"106\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"18\" fill=\"#1B1B3A\">+</text><rect x=\"45.33333333333334\" y=\"145\" width=\"46\" height=\"40\" fill=\"#fffaf0\" stroke=\"#1B1B3A\" stroke-width=\"2\"/><text x=\"68.33333333333334\" y=\"171\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"18\" fill=\"#1B1B3A\">A</text><rect x=\"190.33333333333334\" y=\"145\" width=\"46\" height=\"40\" fill=\"#fffaf0\" stroke=\"#1B1B3A\" stroke-width=\"2\"/><text x=\"213.33333333333334\" y=\"171\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"18\" fill=\"#1B1B3A\">*</text><rect x=\"142.0\" y=\"210\" width=\"46\" height=\"40\" fill=\"#fffaf0\" stroke=\"#1B1B3A\" stroke-width=\"2\"/><text x=\"165.0\" y=\"236\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"18\" fill=\"#1B1B3A\">B</text><rect x=\"238.66666666666663\" y=\"210\" width=\"46\" height=\"40\" fill=\"#fffaf0\" stroke=\"#1B1B3A\" stroke-width=\"2\"/><text x=\"261.66666666666663\" y=\"236\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"18\" fill=\"#1B1B3A\">C</text><rect x=\"432.0\" y=\"80\" width=\"46\" height=\"40\" fill=\"#fffaf0\" stroke=\"#1B1B3A\" stroke-width=\"2\"/><text x=\"455.0\" y=\"106\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"18\" fill=\"#1B1B3A\">*</text><rect x=\"383.6666666666667\" y=\"145\" width=\"46\" height=\"40\" fill=\"#fffaf0\" stroke=\"#1B1B3A\" stroke-width=\"2\"/><text x=\"406.6666666666667\" y=\"171\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"18\" fill=\"#1B1B3A\">+</text><rect x=\"335.33333333333337\" y=\"210\" width=\"46\" height=\"40\" fill=\"#fffaf0\" stroke=\"#1B1B3A\" stroke-width=\"2\"/><text x=\"358.33333333333337\" y=\"236\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"18\" fill=\"#1B1B3A\">A</text><rect x=\"432.0\" y=\"210\" width=\"46\" height=\"40\" fill=\"#fffaf0\" stroke=\"#1B1B3A\" stroke-width=\"2\"/><text x=\"455.0\" y=\"236\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"18\" fill=\"#1B1B3A\">B</text><rect x=\"528.6666666666667\" y=\"145\" width=\"46\" height=\"40\" fill=\"#fffaf0\" stroke=\"#1B1B3A\" stroke-width=\"2\"/><text x=\"551.6666666666667\" y=\"171\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"18\" fill=\"#1B1B3A\">C</text></svg>"
+    },
+    "btree": {
+      "caption": "Order 4 B-tree after inserting 10,20,5,6,12,30,7,17. All leaves are at the same depth.",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 620 200\" role=\"img\" aria-label=\"Order 4 B-tree after inserting 10,20,5,6,12,30,7,17. All leaves are at the same depth.\"><rect width=\"100%\" height=\"100%\" fill=\"#F4E9CD\"/><defs><marker id=\"arrow-btree\" markerWidth=\"7\" markerHeight=\"7\" refX=\"5\" refY=\"3\" orient=\"auto\"><path d=\"M0 0L6 3L0 6Z\" fill=\"#1B1B3A\"/></marker></defs><path d=\"M310 45L210.0 97.5L110 150\" stroke=\"#1B1B3A\" stroke-width=\"3\"/><path d=\"M310 45L310.0 97.5L310 150\" stroke=\"#1B1B3A\" stroke-width=\"3\"/><path d=\"M310 45L410.0 97.5L510 150\" stroke=\"#1B1B3A\" stroke-width=\"3\"/><rect x=\"264.0\" y=\"25\" width=\"92\" height=\"40\" fill=\"#fffaf0\" stroke=\"#1B1B3A\" stroke-width=\"2\"/><text x=\"310\" y=\"51\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"18\" fill=\"#1B1B3A\">10 | 20</text><rect x=\"54.0\" y=\"130\" width=\"112\" height=\"40\" fill=\"#fffaf0\" stroke=\"#1B1B3A\" stroke-width=\"2\"/><text x=\"110\" y=\"156\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"18\" fill=\"#1B1B3A\">5 | 6 | 7</text><rect x=\"264.0\" y=\"130\" width=\"92\" height=\"40\" fill=\"#fffaf0\" stroke=\"#1B1B3A\" stroke-width=\"2\"/><text x=\"310\" y=\"156\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"18\" fill=\"#1B1B3A\">12 | 17</text><rect x=\"487.0\" y=\"130\" width=\"46\" height=\"40\" fill=\"#fffaf0\" stroke=\"#1B1B3A\" stroke-width=\"2\"/><text x=\"510\" y=\"156\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"18\" fill=\"#1B1B3A\">30</text></svg>"
+    },
+    "graph": {
+      "caption": "Undirected graph with edges AB, AC, BD, CD. It contains a cycle A-B-D-C-A.",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 620 240\" role=\"img\" aria-label=\"Undirected graph with edges AB, AC, BD, CD. It contains a cycle A-B-D-C-A.\"><rect width=\"100%\" height=\"100%\" fill=\"#F4E9CD\"/><defs><marker id=\"arrow-graph\" markerWidth=\"7\" markerHeight=\"7\" refX=\"5\" refY=\"3\" orient=\"auto\"><path d=\"M0 0L6 3L0 6Z\" fill=\"#1B1B3A\"/></marker></defs><path d=\"M160 45L310.0 45.0L460 45\" stroke=\"#1B1B3A\" stroke-width=\"3\"/><path d=\"M160 45L160.0 117.5L160 190\" stroke=\"#1B1B3A\" stroke-width=\"3\"/><path d=\"M460 45L460.0 117.5L460 190\" stroke=\"#1B1B3A\" stroke-width=\"3\"/><path d=\"M160 190L310.0 190.0L460 190\" stroke=\"#1B1B3A\" stroke-width=\"3\"/><rect x=\"137.0\" y=\"25\" width=\"46\" height=\"40\" fill=\"#fffaf0\" stroke=\"#1B1B3A\" stroke-width=\"2\"/><text x=\"160\" y=\"51\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"18\" fill=\"#1B1B3A\">A</text><rect x=\"437.0\" y=\"25\" width=\"46\" height=\"40\" fill=\"#fffaf0\" stroke=\"#1B1B3A\" stroke-width=\"2\"/><text x=\"460\" y=\"51\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"18\" fill=\"#1B1B3A\">B</text><rect x=\"137.0\" y=\"170\" width=\"46\" height=\"40\" fill=\"#fffaf0\" stroke=\"#1B1B3A\" stroke-width=\"2\"/><text x=\"160\" y=\"196\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"18\" fill=\"#1B1B3A\">C</text><rect x=\"437.0\" y=\"170\" width=\"46\" height=\"40\" fill=\"#fffaf0\" stroke=\"#1B1B3A\" stroke-width=\"2\"/><text x=\"460\" y=\"196\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"18\" fill=\"#1B1B3A\">D</text></svg>"
+    }
+  },
+  "sourceNote": "Semester labels conflict: CT1 prints IV, CT2 prints III. Academic years are not exam dates. Two AY 2024–25 CT1 sets are separate variants; neither is identified as a retest. End-sem PDF pages are shown in reading order (3, then 2)."
+}

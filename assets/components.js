@@ -1,0 +1,8 @@
+/* Presentation-only components. Content and application state stay in app.js/data.json. */
+function RetroProgress(revised,total){
+ const percent=total?Math.round(100*revised/total):0;
+ return `<div class="progress-label"><span>REVISION PROGRESS</span><span>${percent}%</span></div><div class="progress-track" role="progressbar" aria-label="Questions marked revised" aria-valuemin="0" aria-valuemax="${total}" aria-valuenow="${revised}">${Array.from({length:12},(_,i)=>`<i class="${i<Math.round(12*revised/Math.max(total,1))?'filled':''}"></i>`).join('')}</div><small>${revised} of ${total} questions revised</small>`;
+}
+function QuestionCard(q,index,p,isSaved,isRevised){
+ return `<article class="question ${isRevised?'is-revised':''}"><div><div class="question-kicker">QUESTION ${q.id.replace(/^.*q/,'')}${isRevised?' / REVISED':''}</div><h3><button data-open="${q.id}">${esc(q.title)}</button></h3><div class="question-badges"><strong class="pixel-badge marks" title="${q.marksInferred?'Inferred from group total and choice instructions':'Source marks'}">${q.marks}M${q.marksInferred?'*':''}</strong><span class="pixel-badge">${esc(p.type)}${p.id==='ct1-r25'?' · retest':''}</span><span class="pixel-badge ${p.year===null?'uncertain':''}">${esc(p.academicYear?'AY '+p.academicYear:p.year===null?'Year unverified':p.year)}</span><span class="pixel-badge">${q.family?(()=>{const n=new Set(D.questions.filter(x=>x.family===q.family).map(x=>x.paper)).size;return n+' paper'+(n===1?'':'s')})():'1 source'}</span></div></div><button class="bookmark ${isSaved?'on':''}" aria-label="${isSaved?'Remove bookmark':'Bookmark'}: ${esc(q.title)}" aria-pressed="${isSaved}" data-save="${q.id}">${icon('bookmark')}</button></article>`;
+}
